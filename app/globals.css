@@ -108,11 +108,47 @@
   }
 }
 
+/* Continuous carrier marquee (marquee-scroll avoids Tailwind keyframe clash) */
+@keyframes marquee-scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.marquee-track {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: max-content;
+  max-width: none;
+  will-change: transform;
+  animation: marquee-scroll 35s linear infinite;
+  animation-play-state: running;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.marquee-track--carriers {
+  animation-duration: 40s;
+}
+
 /* Reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+
+  .marquee-track,
+  .marquee-track--carriers {
+    animation-duration: 55s !important;
+    animation-iteration-count: infinite !important;
   }
 }
 

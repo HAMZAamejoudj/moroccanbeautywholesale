@@ -14,6 +14,31 @@ const carrierLogos = [
   { name: "Chronopost", src: "/images/carrier-chronopost.webp", width: 150, height: 44 },
 ];
 
+function CarrierRow({ duplicate = false }: { duplicate?: boolean }) {
+  return (
+    <div
+      className="flex flex-row flex-nowrap items-center gap-10 sm:gap-14 shrink-0 pr-10 sm:pr-14"
+      aria-hidden={duplicate || undefined}
+    >
+      {carrierLogos.map((carrier) => (
+        <div
+          key={`${carrier.name}-${duplicate ? "dup" : "main"}`}
+          className="flex shrink-0 items-center justify-center"
+        >
+          <Image
+            src={carrier.src}
+            alt={duplicate ? "" : carrier.name}
+            width={carrier.width}
+            height={carrier.height}
+            loading="lazy"
+            className="h-11 sm:h-12 md:h-14 w-auto min-w-[72px] object-contain"
+          />
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export function ShippingSection({ dict }: ShippingSectionProps) {
   return (
     <section className="bg-white py-20 lg:py-28">
@@ -27,20 +52,16 @@ export function ShippingSection({ dict }: ShippingSectionProps) {
           </p>
         </div>
 
-        <ul className="flex flex-wrap items-center gap-x-10 gap-y-6 py-4 sm:gap-x-14 sm:py-6" aria-label={dict.title}>
-          {carrierLogos.map((carrier) => (
-            <li key={carrier.name} className="flex items-center justify-center">
-              <Image
-                src={carrier.src}
-                alt={carrier.name}
-                width={carrier.width}
-                height={carrier.height}
-                loading="lazy"
-                className="h-11 sm:h-12 md:h-14 w-auto min-w-[72px] object-contain"
-              />
-            </li>
-          ))}
-        </ul>
+        <div
+          className="py-4 sm:py-6 overflow-hidden w-full"
+          role="region"
+          aria-label={dict.title}
+        >
+          <div className="marquee-track marquee-track--carriers flex flex-row flex-nowrap items-center" dir="ltr">
+            <CarrierRow />
+            <CarrierRow duplicate />
+          </div>
+        </div>
       </div>
     </section>
   );
