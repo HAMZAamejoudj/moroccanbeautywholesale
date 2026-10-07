@@ -1,8 +1,14 @@
 import { siteConfig } from "@/lib/siteConfig";
 
+const organizationDescriptions: Record<string, string> = {
+  en: "Wholesale supplier of Moroccan beauty products: argan oil, black soap, ghassoul, rose water and hammam kits, ready to sell for shops, spas and hotels.",
+  fr: "Grossiste de produits de beauté marocains : huile d'argan, savon noir, ghassoul, eau de rose et kits hammam pour boutiques, spas et hôtels.",
+  ar: "مورد منتجات التجميل المغربية بالجملة: زيت الأركان، الصابون البلدي، الغاسول، ماء الورد وأطقم الحمام المغربي، جاهزة للبيع للمتاجر والسبا والفنادق.",
+};
+
 /** Organization JSON-LD: rendered once on every page by the [lang] layout. */
 export function StructuredData({ lang = "en" }: { lang?: string }) {
-  void lang;
+  const activeLang = organizationDescriptions[lang] ? lang : "en";
   const { foundingYear } = siteConfig.businessFacts;
 
   const organizationSchema = {
@@ -21,8 +27,7 @@ export function StructuredData({ lang = "en" }: { lang?: string }) {
       postalCode: "40110",
       addressCountry: "MA",
     },
-    description:
-      "Moroccan Beauty Wholesale supplies ready-to-sell Moroccan beauty products to shops, spas and hotels, with a minimum order of 50 pieces.",
+    description: organizationDescriptions[activeLang],
     availableLanguage: ["en", "fr", "ar"],
     sameAs: [],
     ...(foundingYear ? { foundingDate: String(foundingYear) } : {}),

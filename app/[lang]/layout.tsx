@@ -27,7 +27,7 @@ export const dynamicParams = false;
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Moroccan Beauty Products Wholesale | From 50 Pieces",
+    default: "Moroccan Beauty Products Wholesale Supplier | Argan Oil",
     template: `%s | ${siteConfig.name}`,
   },
   icons: {
