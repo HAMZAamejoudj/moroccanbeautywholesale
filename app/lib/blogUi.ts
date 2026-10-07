@@ -1,0 +1,107 @@
+import type { Locale } from "./blog";
+
+export const blogUi = {
+  en: {
+    home: "Home",
+    blog: "Blog",
+    h1: "Guides for buyers",
+    subtitle: "Practical guides on buying, branding and importing Moroccan beauty products wholesale.",
+    all: "All",
+    filterLabel: "Filter articles by category",
+    featured: "Latest article",
+    readArticle: "Read article",
+    minRead: (n: number) => `${n} min read`,
+    updated: "Updated",
+    inThisArticle: "In this article",
+    faq: "FAQ",
+    related: "Related articles",
+    share: "Share",
+    copyLink: "Copy link",
+    copied: "Link copied",
+    whatsapp: "WhatsApp",
+    linkedin: "LinkedIn",
+    email: "Email",
+    ctaPrice: "Request the Price List",
+    ctaWhatsapp: "Chat on WhatsApp",
+    englishOnly: "Available in English",
+    englishOnlyNote: "This article is currently available in English only.",
+    noPosts: "No articles in this category yet.",
+    waMessage: (topic: string) => `Hello, I read your article "${topic}" and would like to receive the price list.`,
+    closing: {
+      title: "Get the Price List",
+      description:
+        "Tell us your type of business, the products you're interested in and your country. You'll receive the price list and shipping options within 24 hours on business days.",
+    },
+  },
+  fr: {
+    home: "Accueil",
+    blog: "Blog",
+    h1: "Guides pour acheteurs",
+    subtitle: "Des guides pratiques pour acheter, personnaliser et importer des produits de beauté marocains en gros.",
+    all: "Tous",
+    filterLabel: "Filtrer les articles par catégorie",
+    featured: "Dernier article",
+    readArticle: "Lire l'article",
+    minRead: (n: number) => `${n} min de lecture`,
+    updated: "Mis à jour",
+    inThisArticle: "Dans cet article",
+    faq: "FAQ",
+    related: "Articles liés",
+    share: "Partager",
+    copyLink: "Copier le lien",
+    copied: "Lien copié",
+    whatsapp: "WhatsApp",
+    linkedin: "LinkedIn",
+    email: "E-mail",
+    ctaPrice: "Demander la liste de prix",
+    ctaWhatsapp: "Discuter sur WhatsApp",
+    englishOnly: "Disponible en anglais",
+    englishOnlyNote: "Cet article est actuellement disponible en anglais uniquement.",
+    noPosts: "Aucun article dans cette catégorie pour le moment.",
+    waMessage: (topic: string) => `Bonjour, j'ai lu votre article "${topic}" et je souhaite recevoir la liste de prix.`,
+    closing: {
+      title: "Recevez la liste de prix",
+      description:
+        "Indiquez-nous votre type d'activité, les produits qui vous intéressent et votre pays. Vous recevrez la liste de prix et les options d'expédition sous 24 h ouvrables.",
+    },
+  },
+  ar: {
+    home: "الرئيسية",
+    blog: "المدونة",
+    h1: "أدلة للمشترين",
+    subtitle: "أدلة عملية لشراء منتجات التجميل المغربية بالجملة وتخصيصها بعلامتك واستيرادها.",
+    all: "الكل",
+    filterLabel: "تصفية المقالات حسب الفئة",
+    featured: "أحدث مقال",
+    readArticle: "اقرأ المقال",
+    minRead: (n: number) => `${n} دقائق للقراءة`,
+    updated: "تم التحديث",
+    inThisArticle: "في هذا المقال",
+    faq: "الأسئلة الشائعة",
+    related: "مقالات ذات صلة",
+    share: "مشاركة",
+    copyLink: "نسخ الرابط",
+    copied: "تم نسخ الرابط",
+    whatsapp: "واتساب",
+    linkedin: "لينكدإن",
+    email: "البريد الإلكتروني",
+    ctaPrice: "اطلب قائمة الأسعار",
+    ctaWhatsapp: "تواصل عبر واتساب",
+    englishOnly: "متوفر بالإنجليزية",
+    englishOnlyNote: "هذا المقال متوفر حاليًا باللغة الإنجليزية فقط.",
+    noPosts: "لا توجد مقالات في هذه الفئة بعد.",
+    waMessage: (topic: string) => `مرحبًا، قرأت مقالكم "${topic}" وأود الحصول على قائمة الأسعار.`,
+    closing: {
+      title: "احصل على قائمة الأسعار",
+      description:
+        "أخبرنا بنوع نشاطك والمنتجات التي تهمك وبلدك. ستصلك قائمة الأسعار وخيارات الشحن خلال 24 ساعة في أيام العمل.",
+    },
+  },
+} as const;
+
+export const getUi = (lang: string) => blogUi[(lang in blogUi ? lang : "en") as Locale];
+
+export function formatDate(iso: string, lang: string) {
+  const locale = lang === "ar" ? "ar-MA-u-nu-latn" : lang === "fr" ? "fr-FR" : "en-US";
+  return new Intl.DateTimeFormat(locale, { dateStyle: "long", timeZone: "UTC" }).format(new Date(iso));
+}

@@ -1,0 +1,27 @@
+# Moroccan Beauty Wholesale — robots.txt
+# https://www.moroccanbeautywholesale.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://www.moroccanbeautywholesale.com/sitemap.xml
+
+# Googlebot-specific
+User-agent: Googlebot
+Allow: /
+
+# Allow AI crawlers for GEO (Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
