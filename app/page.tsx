@@ -1,20 +1,16 @@
+/** Root `/` — real 301 is handled by Apache (.htaccess in postbuild). Minimal HTML fallback. */
 export default function RootPage() {
   return (
     <html lang="en">
       <head>
-        <meta httpEquiv="refresh" content="0; url=/en/" />
-        <link rel="canonical" href="https://www.moroccanbeautywholesale.com/en/" />
+        <meta httpEquiv="refresh" content="0;url=/en/" />
+        <link rel="canonical" href="https://moroccanbeautywholesale.com/en/" />
         <title>Moroccan Beauty Wholesale</title>
       </head>
       <body>
         <p>
-          Redirecting to <a href="/en/">Moroccan Beauty Wholesale</a>...
+          <a href="/en/">Moroccan Beauty Wholesale</a>
         </p>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.location.replace('/en/');`,
-          }}
-        />
       </body>
     </html>
   );

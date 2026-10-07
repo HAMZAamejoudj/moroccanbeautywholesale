@@ -49,6 +49,9 @@ const footerTranslations: Record<
     contact: string;
     addressLabel: string;
     factoryLabel: string;
+    officeLabel: string;
+    guidesTitle: string;
+    guideLinks: { slug: string; label: string }[];
     copyright: string;
   }
 > = {
@@ -66,6 +69,16 @@ const footerTranslations: Record<
     contact: "Contact and Quote",
     addressLabel: "Address",
     factoryLabel: "Factory",
+    officeLabel: "Office",
+    guidesTitle: "Guides",
+    guideLinks: [
+      { slug: "wholesale-argan-oil-guide", label: "Wholesale argan oil" },
+      { slug: "moroccan-black-soap-wholesale", label: "Black soap wholesale" },
+      { slug: "rhassoul-clay-guide", label: "Rhassoul clay" },
+      { slug: "hammam-kit-hotels-spas", label: "Hammam kits" },
+      { slug: "importing-moroccan-cosmetics", label: "Importing cosmetics" },
+      { slug: "private-label-moroccan-cosmetics", label: "Private label" },
+    ],
     copyright: "© 2026 Moroccan Beauty Wholesale. All rights reserved.",
   },
   fr: {
@@ -82,6 +95,16 @@ const footerTranslations: Record<
     contact: "Contact et Devis",
     addressLabel: "Adresse",
     factoryLabel: "Atelier",
+    officeLabel: "Bureau",
+    guidesTitle: "Guides",
+    guideLinks: [
+      { slug: "wholesale-argan-oil-guide", label: "Huile d'argan en gros" },
+      { slug: "moroccan-black-soap-wholesale", label: "Savon noir en gros" },
+      { slug: "rhassoul-clay-guide", label: "Rhassoul" },
+      { slug: "hammam-kit-hotels-spas", label: "Kits hammam" },
+      { slug: "importing-moroccan-cosmetics", label: "Import cosmétiques" },
+      { slug: "private-label-moroccan-cosmetics", label: "Marque privée" },
+    ],
     copyright: "© 2026 Moroccan Beauty Wholesale. Tous droits réservés.",
   },
   ar: {
@@ -98,6 +121,16 @@ const footerTranslations: Record<
     contact: "الاتصال والطلب",
     addressLabel: "العنوان",
     factoryLabel: "المعمل",
+    officeLabel: "المكتب",
+    guidesTitle: "الأدلة",
+    guideLinks: [
+      { slug: "wholesale-argan-oil-guide", label: "زيت الأركان بالجملة" },
+      { slug: "moroccan-black-soap-wholesale", label: "الصابون الأسود" },
+      { slug: "rhassoul-clay-guide", label: "طين الراسول" },
+      { slug: "hammam-kit-hotels-spas", label: "مجموعات الحمام" },
+      { slug: "importing-moroccan-cosmetics", label: "استيراد المستحضرات" },
+      { slug: "private-label-moroccan-cosmetics", label: "العلامة الخاصة" },
+    ],
     copyright: "© 2026 Moroccan Beauty Wholesale. جميع الحقوق محفوظة.",
   },
 };
@@ -110,7 +143,7 @@ export function Footer() {
   return (
     <footer className="bg-[#F1EBE1] text-[#2A211C] pt-16 pb-12">
       <div className="max-w-[1480px] 2xl:max-w-[1560px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-14">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 pb-12 border-b border-[#E3DACD]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 lg:gap-12 pb-12 border-b border-[#E3DACD]">
           {/* Col 1: Logo + description */}
           <div className="space-y-4">
             <Link href={`/${lang}/`} className="inline-block">
@@ -129,9 +162,9 @@ export function Footer() {
 
           {/* Col 2: Navigation Links */}
           <div>
-            <h3 className="font-serif font-bold text-base mb-4 text-[#2A211C]">
+            <p className="font-serif font-bold text-base mb-4 text-[#2A211C]">
               {t.pagesTitle}
-            </h3>
+            </p>
             <ul className="space-y-2.5 text-sm text-[#5E534B]">
               <li>
                 <Link href={`/${lang}/`} className="hover:text-[#284B35] transition-colors">
@@ -166,16 +199,35 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Col 3: Contact details */}
+          {/* Col 3: Blog guides */}
           <div>
-            <h3 className="font-serif font-bold text-base mb-4 text-[#2A211C]">
+            <p className="font-serif font-bold text-base mb-4 text-[#2A211C]">
+              {t.guidesTitle}
+            </p>
+            <ul className="space-y-2.5 text-sm text-[#5E534B]">
+              {t.guideLinks.map((guide) => (
+                <li key={guide.slug}>
+                  <Link
+                    href={`/${lang}/blog/${guide.slug}/`}
+                    className="hover:text-[#284B35] transition-colors"
+                  >
+                    {guide.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Col 4: Contact details */}
+          <div>
+            <p className="font-serif font-bold text-base mb-4 text-[#2A211C]">
               {t.contactTitle}
-            </h3>
+            </p>
             <div className="space-y-2.5 text-sm text-[#5E534B]">
               <div>
                 <a
                   href={`mailto:${siteConfig.email}`}
-                  className="hover:text-[#284B35] transition-colors font-medium break-all"
+                  className="inline-block text-[11px] sm:text-xs font-medium leading-snug tracking-tight text-[#2A211C] hover:text-[#284B35] transition-colors whitespace-nowrap"
                 >
                   {siteConfig.email}
                 </a>
@@ -189,20 +241,20 @@ export function Footer() {
                 </a>
               </div>
               <div className="pt-2 text-xs leading-relaxed text-[#5E534B]">
-                <span className="font-semibold text-[#2A211C] block">{t.addressLabel}:</span>
-                {businessFacts.address}
+                <span className="font-semibold text-[#2A211C] block">{t.officeLabel}:</span>
+                {siteConfig.fullAddress}
               </div>
               <div className="text-xs text-[#2A211C] font-semibold">
-                {t.factoryLabel}: {businessFacts.factoryCity}
+                {t.factoryLabel}: {businessFacts.factoryCity}, Morocco
               </div>
             </div>
           </div>
 
-          {/* Col 4: Payment methods */}
+          {/* Col 5: Payment methods */}
           <div>
-            <h3 className="font-serif font-bold text-base mb-4 text-[#2A211C]">
+            <p className="font-serif font-bold text-base mb-4 text-[#2A211C]">
               {t.paymentTitle}
-            </h3>
+            </p>
             <p className="text-xs text-[#5E534B] mb-4">
               Wire transfer, credit cards, and international transfer.
             </p>

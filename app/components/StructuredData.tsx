@@ -30,7 +30,7 @@ const faqDataByLang: Record<
     {
       question: "Where is your factory?",
       answer:
-        "In Agadir, Morocco. Our address is Lot 377 N°3/6, Sidi Ghanem industrial zone, 40110 Marrakesh.",
+        "Our factory is in Agadir, Morocco. Our office is at Lot 377 N°3/6, Sidi Ghanem industrial zone, 40110 Marrakesh.",
     },
     {
       question: "Do you ship outside Morocco?",
@@ -60,7 +60,7 @@ const faqDataByLang: Record<
     {
       question: "Où se trouve votre atelier de production ?",
       answer:
-        "À Agadir, au Maroc. Notre adresse est Lot 377 N°3/6, Zone industrielle Sidi Ghanem, 40110 Marrakech.",
+        "Notre usine est à Agadir, Maroc. Notre bureau est au Lot 377 N°3/6, zone industrielle Sidi Ghanem, 40110 Marrakech.",
     },
     {
       question: "Livrez-vous en dehors du Maroc ?",
@@ -90,7 +90,7 @@ const faqDataByLang: Record<
     {
       question: "أين يقع معملكم؟",
       answer:
-        "في أكادير، المغرب. عنواننا هو القطعة 377 رقم 3/6، المنطقة الصناعية سيدي غانم، 40110 مراكش.",
+        "معملنا في أكادير، المغرب. مكتبنا في القطعة 377 رقم 3/6، المنطقة الصناعية سيدي غانم، 40110 مراكش.",
     },
     {
       question: "هل تقومون بالشحن خارج المغرب؟",
@@ -142,7 +142,7 @@ export function StructuredData({ lang = "en", includeHomeSchemas = false }: Stru
     description:
       "Ready-to-sell Moroccan beauty products for shops, spas and hotels. Wholesale from 50 pieces.",
     telephone: siteConfig.phone,
-    email: siteConfig.ordersEmail,
+    email: siteConfig.email,
     address: {
       "@type": "PostalAddress",
       streetAddress: "Lot 377 N°3/6, Sidi Ghanem industrial zone",

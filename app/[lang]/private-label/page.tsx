@@ -30,6 +30,7 @@ import { PrivateLabelIngredients } from "@/components/PrivateLabelIngredients";
 import { siteConfig } from "@/lib/siteConfig";
 
 import { getDictionary } from "../../dictionaries";
+import { buildPageMetadata, type SeoLocale } from "@/lib/seo";
 
 const ICON_MAP: Record<string, LucideIcon> = {
   zap: Zap,
@@ -60,10 +61,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const dict = await getDictionary(lang);
-  return {
+  return buildPageMetadata({
+    lang: lang as SeoLocale,
+    segments: ["private-label"],
     title: dict.privateLabel.seo.title,
     description: dict.privateLabel.seo.description,
-  };
+    ogImage: {
+      path: "/images/private-label-showcase.webp",
+      alt: "Moroccan private label cosmetics with custom branding",
+    },
+  });
 }
 
 export function generateStaticParams() {

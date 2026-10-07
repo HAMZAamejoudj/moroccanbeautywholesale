@@ -852,32 +852,32 @@
           "id": "shops",
           "title": "المتاجر والمتاجر الفاخرة",
           "description": "منتجات التجميل المغربية تباع بشكل ممتاز بجانب الديكور المنزلي والشاي والحرف اليدوية. منتجات مغلفة وباقات هدايا بكميات واقعية للمتاجر.",
-          "linkText": "مشاهدة باقات الهدايا ومجموعات الحمام",
-          "href": "/contact/",
+          "linkText": "دليل زيت الأركان بالجملة",
+          "href": "/blog/wholesale-argan-oil-guide/",
           "image": "/images/audience-shops.webp"
         },
         {
           "id": "spas",
           "title": "المنتجعات الصحية والحمامات",
           "description": "أحجام مهنية من الصابون الأسود والغاسول لجلسات العناية، قفازات الكيس بالباقة، وأحجام للتجزئة لمكتب الاستقبال.",
-          "linkText": "مشاهدة مستلزمات السبا والحمام",
-          "href": "/contact/",
+          "linkText": "دليل الصابون الأسود للسبا",
+          "href": "/blog/moroccan-black-soap-wholesale/",
           "image": "/images/audience-spas.webp"
         },
         {
           "id": "hotels",
           "title": "الفنادق والرياضات",
           "description": "زيت الأرغان، الصابون الأسود وماء الورد لغرف النزلاء والحمامات الداخلية — لمسة أصيلة يتذكرها الضيوف دائماً.",
-          "linkText": "مشاهدة مستلزمات الضيافة للفنادق",
-          "href": "/contact/",
+          "linkText": "مجموعات الحمام للفنادق",
+          "href": "/blog/hammam-kit-hotels-spas/",
           "image": "/images/audience-hotels.webp"
         },
         {
           "id": "online",
           "title": "البائعون عبر الإنترنت",
           "description": "منتجات جاهزة للبيع مع ملصقات واضحة وقائمة المكونات، مغلفة بإحكام لتحمل الشحن والتنقل.",
-          "linkText": "مشاهدة الكتالوج",
-          "href": "/contact/",
+          "linkText": "البيع تحت علامتك",
+          "href": "/private-label/",
           "image": "/images/about-hero.webp"
         }
       ]
@@ -894,19 +894,25 @@
           "name": "زيت الأرغان (للتجميل)",
           "format": "عند الطلب",
           "popularWith": "المتاجر، التجارة الإلكترونية، الفنادق",
-          "image": "/images/hero-ingredients-background.webp"
+          "image": "/images/hero-ingredients-background.webp",
+          "guideSlug": "wholesale-argan-oil-guide",
+          "guideLinkLabel": "دليل زيت الأركان بالجملة"
         },
         {
           "name": "الصابون الأسود المغربي",
           "format": "عند الطلب",
           "popularWith": "الصالونات، الحمامات، المتاجر",
-          "image": "/images/card-premium-oils.webp"
+          "image": "/images/card-premium-oils.webp",
+          "guideSlug": "moroccan-black-soap-wholesale",
+          "guideLinkLabel": "دليل الصابون الأسود"
         },
         {
           "name": "طين الغاسول الطبيعي",
           "format": "عند الطلب",
           "popularWith": "الصالونات، المتاجر",
-          "image": "/images/hero-ingredients-background.webp"
+          "image": "/images/hero-ingredients-background.webp",
+          "guideSlug": "rhassoul-clay-guide",
+          "guideLinkLabel": "دليل طين الراسول"
         },
         {
           "name": "ماء الورد المقطر",
@@ -924,7 +930,9 @@
           "name": "باقات الحمام المغربي",
           "format": "عند الطلب",
           "popularWith": "المتاجر، الهدايا، الفنادق",
-          "image": "/images/card-premium-oils.webp"
+          "image": "/images/card-premium-oils.webp",
+          "guideSlug": "hammam-kit-hotels-spas",
+          "guideLinkLabel": "دليل مجموعات الحمام"
         }
       ],
       "footerNote": "اطلب لائحة الأسعار للاطلاع على الأحجام المتوفرة والأسعار.",
@@ -1004,7 +1012,7 @@
         },
         {
           "q": "أين يقع معملكم؟",
-          "a": "في أكادير، المغرب. عنواننا هو القطعة 377 رقم 3/6، المنطقة الصناعية سيدي غانم، 40110 مراكش."
+          "a": "معملنا في أكادير، المغرب. مكتبنا في القطعة 377 رقم 3/6، المنطقة الصناعية سيدي غانم، 40110 مراكش."
         },
         {
           "q": "هل تقومون بالشحن خارج المغرب؟",

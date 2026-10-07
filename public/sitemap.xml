@@ -4,131 +4,131 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/" />
+    <loc>https://moroccanbeautywholesale.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/" />
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/" />
+    <loc>https://moroccanbeautywholesale.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/" />
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/" />
+    <loc>https://moroccanbeautywholesale.com/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/" />
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- About -->
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/about/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/about/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/about/" />
+    <loc>https://moroccanbeautywholesale.com/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/about/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/about/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/about/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/about/" />
+    <loc>https://moroccanbeautywholesale.com/fr/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/about/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/about/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/about/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/about/" />
+    <loc>https://moroccanbeautywholesale.com/ar/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/about/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/about/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/about/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Benefits -->
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/benefits/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/benefits/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/benefits/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/benefits/" />
+    <loc>https://moroccanbeautywholesale.com/en/benefits/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/benefits/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/benefits/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/benefits/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/benefits/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/benefits/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/benefits/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/benefits/" />
+    <loc>https://moroccanbeautywholesale.com/fr/benefits/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/benefits/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/benefits/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/benefits/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/benefits/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/benefits/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/benefits/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/benefits/" />
+    <loc>https://moroccanbeautywholesale.com/ar/benefits/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/benefits/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/benefits/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/benefits/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Private Label -->
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/private-label/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/private-label/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/private-label/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/private-label/" />
+    <loc>https://moroccanbeautywholesale.com/en/private-label/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/private-label/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/private-label/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/private-label/" />
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/private-label/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/private-label/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/private-label/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/private-label/" />
+    <loc>https://moroccanbeautywholesale.com/fr/private-label/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/private-label/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/private-label/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/private-label/" />
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/private-label/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/private-label/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/private-label/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/private-label/" />
+    <loc>https://moroccanbeautywholesale.com/ar/private-label/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/private-label/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/private-label/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/private-label/" />
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Contact -->
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/contact/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/contact/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/contact/" />
+    <loc>https://moroccanbeautywholesale.com/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/contact/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/contact/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/contact/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/contact/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/contact/" />
+    <loc>https://moroccanbeautywholesale.com/fr/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/contact/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/contact/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/contact/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/contact/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/contact/" />
+    <loc>https://moroccanbeautywholesale.com/ar/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/contact/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/contact/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/contact/" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -136,209 +136,209 @@
 
   <!-- Blog -->
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/blog/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/" />
+    <loc>https://moroccanbeautywholesale.com/en/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/" />
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/blog/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/" />
+    <loc>https://moroccanbeautywholesale.com/fr/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/" />
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/blog/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/" />
+    <loc>https://moroccanbeautywholesale.com/ar/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/" />
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/hammam-kit-hotels-spas/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/hammam-kit-hotels-spas/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
+    <loc>https://moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/hammam-kit-hotels-spas/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/hammam-kit-hotels-spas/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/blog/hammam-kit-hotels-spas/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/hammam-kit-hotels-spas/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/hammam-kit-hotels-spas/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
+    <loc>https://moroccanbeautywholesale.com/fr/blog/hammam-kit-hotels-spas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/hammam-kit-hotels-spas/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/hammam-kit-hotels-spas/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/blog/hammam-kit-hotels-spas/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/hammam-kit-hotels-spas/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/hammam-kit-hotels-spas/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
+    <loc>https://moroccanbeautywholesale.com/ar/blog/hammam-kit-hotels-spas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/hammam-kit-hotels-spas/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/hammam-kit-hotels-spas/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/hammam-kit-hotels-spas/" />
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/importing-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/importing-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
+    <loc>https://moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/importing-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/importing-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
     <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/blog/importing-moroccan-cosmetics/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/importing-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/importing-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
+    <loc>https://moroccanbeautywholesale.com/fr/blog/importing-moroccan-cosmetics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/importing-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/importing-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
     <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/blog/importing-moroccan-cosmetics/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/importing-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/importing-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
+    <loc>https://moroccanbeautywholesale.com/ar/blog/importing-moroccan-cosmetics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/importing-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/importing-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/importing-moroccan-cosmetics/" />
     <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/moroccan-black-soap-wholesale/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/moroccan-black-soap-wholesale/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
+    <loc>https://moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/moroccan-black-soap-wholesale/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/moroccan-black-soap-wholesale/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/blog/moroccan-black-soap-wholesale/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/moroccan-black-soap-wholesale/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/moroccan-black-soap-wholesale/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
+    <loc>https://moroccanbeautywholesale.com/fr/blog/moroccan-black-soap-wholesale/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/moroccan-black-soap-wholesale/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/moroccan-black-soap-wholesale/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/blog/moroccan-black-soap-wholesale/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/moroccan-black-soap-wholesale/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/moroccan-black-soap-wholesale/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
+    <loc>https://moroccanbeautywholesale.com/ar/blog/moroccan-black-soap-wholesale/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/moroccan-black-soap-wholesale/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/moroccan-black-soap-wholesale/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/moroccan-black-soap-wholesale/" />
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/private-label-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/private-label-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
+    <loc>https://moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/private-label-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/private-label-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/blog/private-label-moroccan-cosmetics/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/private-label-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/private-label-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
+    <loc>https://moroccanbeautywholesale.com/fr/blog/private-label-moroccan-cosmetics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/private-label-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/private-label-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/blog/private-label-moroccan-cosmetics/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/private-label-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/private-label-moroccan-cosmetics/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
+    <loc>https://moroccanbeautywholesale.com/ar/blog/private-label-moroccan-cosmetics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/private-label-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/private-label-moroccan-cosmetics/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/private-label-moroccan-cosmetics/" />
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/rhassoul-clay-guide/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/rhassoul-clay-guide/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
+    <loc>https://moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/rhassoul-clay-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/rhassoul-clay-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
     <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/blog/rhassoul-clay-guide/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/rhassoul-clay-guide/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/rhassoul-clay-guide/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
+    <loc>https://moroccanbeautywholesale.com/fr/blog/rhassoul-clay-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/rhassoul-clay-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/rhassoul-clay-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
     <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/blog/rhassoul-clay-guide/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/rhassoul-clay-guide/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/rhassoul-clay-guide/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
+    <loc>https://moroccanbeautywholesale.com/ar/blog/rhassoul-clay-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/rhassoul-clay-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/rhassoul-clay-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/rhassoul-clay-guide/" />
     <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/wholesale-argan-oil-guide/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/wholesale-argan-oil-guide/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
+    <loc>https://moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/wholesale-argan-oil-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/wholesale-argan-oil-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/fr/blog/wholesale-argan-oil-guide/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/wholesale-argan-oil-guide/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/wholesale-argan-oil-guide/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
+    <loc>https://moroccanbeautywholesale.com/fr/blog/wholesale-argan-oil-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/wholesale-argan-oil-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/wholesale-argan-oil-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.moroccanbeautywholesale.com/ar/blog/wholesale-argan-oil-guide/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://www.moroccanbeautywholesale.com/fr/blog/wholesale-argan-oil-guide/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://www.moroccanbeautywholesale.com/ar/blog/wholesale-argan-oil-guide/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
+    <loc>https://moroccanbeautywholesale.com/ar/blog/wholesale-argan-oil-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/wholesale-argan-oil-guide/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/wholesale-argan-oil-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/wholesale-argan-oil-guide/" />
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

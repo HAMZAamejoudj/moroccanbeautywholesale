@@ -12,6 +12,8 @@ interface ProductItem {
   format: string;
   popularWith: string;
   image: string;
+  guideSlug?: string;
+  guideLinkLabel?: string;
 }
 
 interface ReadyToSellProductsProps {
@@ -94,12 +96,41 @@ export function ReadyToSellProducts({ dict, lang }: ReadyToSellProductsProps) {
         {/* VIEW 1: Modern Product Cards Grid (Default) */}
         {viewMode === "grid" ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 lg:gap-8">
-            {dict.items.map((item, idx) => (
+            {dict.items.map((item, idx) => {
+              const guideHref = item.guideSlug
+                ? `/${lang}/blog/${item.guideSlug}/`
+                : null;
+              const priceLabel =
+                lang === "ar"
+                  ? `اطلب قائمة أسعار ${item.name}`
+                  : lang === "fr"
+                  ? `Demander les prix : ${item.name}`
+                  : `Ask for the ${item.name} price list`;
+              const waLabel =
+                lang === "ar"
+                  ? `واتساب — ${item.name}`
+                  : lang === "fr"
+                  ? `WhatsApp — ${item.name}`
+                  : `WhatsApp — ${item.name}`;
+              const waMessage = `Hello, I'm interested in wholesale ${item.name}.`;
+
+              return (
               <article
                 key={idx}
                 className="group flex flex-col rounded-2xl border border-[#E3DACD] bg-[#FAF7F2] overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-[#284B35]/40"
               >
                 {/* Visual Image Header */}
+                {guideHref ? (
+                  <Link href={guideHref} className="relative aspect-[4/3] w-full bg-[#F1EBE1] overflow-hidden border-b border-[#E3DACD] block">
+                    <Image
+                      src={item.image}
+                      alt={item.name}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
+                    />
+                  </Link>
+                ) : (
                 <div className="relative aspect-[4/3] w-full bg-[#F1EBE1] overflow-hidden border-b border-[#E3DACD]">
                   <Image
                     src={item.image}
@@ -109,6 +140,7 @@ export function ReadyToSellProducts({ dict, lang }: ReadyToSellProductsProps) {
                     className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
                   />
                 </div>
+                )}
 
                 {/* Card Body */}
                 <div className="p-6 sm:p-7 flex flex-col flex-1 justify-between bg-white">
@@ -134,9 +166,20 @@ export function ReadyToSellProducts({ dict, lang }: ReadyToSellProductsProps) {
                   </div>
 
                   {/* Card Bottom / Action Links */}
-                  <div className="pt-4 border-t border-[#E3DACD]/70 flex items-center justify-between">
+                  <div className="pt-4 border-t border-[#E3DACD]/70 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                    {guideHref && item.guideLinkLabel ? (
+                      <Link
+                        href={guideHref}
+                        className="inline-flex items-center gap-2 text-sm font-semibold text-[#284B35] hover:text-[#1E3827] group/link transition-colors"
+                      >
+                        <span className="underline underline-offset-4">{item.guideLinkLabel}</span>
+                        <ArrowIcon className="w-4 h-4 transition-transform group-hover/link:translate-x-1" />
+                      </Link>
+                    ) : null}
+                    <div className="flex items-center justify-between gap-3 sm:justify-end sm:ms-auto">
                     <Link
                       href={`/${lang}/contact/`}
+                      aria-label={priceLabel}
                       className="inline-flex items-center gap-2 text-sm font-semibold text-[#284B35] hover:text-[#1E3827] group/link transition-colors"
                     >
                       <span className="underline underline-offset-4">{dict.cta}</span>
@@ -144,20 +187,21 @@ export function ReadyToSellProducts({ dict, lang }: ReadyToSellProductsProps) {
                     </Link>
 
                     <a
-                      href={siteConfig.whatsapp}
+                      href={`${siteConfig.whatsapp}?text=${encodeURIComponent(waMessage)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs font-medium text-[#5E534B] hover:text-[#284B35] transition-colors p-1.5 rounded-lg hover:bg-[#FAF7F2]"
-                      title="Quick inquiry on WhatsApp"
-                      aria-label="Inquire on WhatsApp"
+                      aria-label={waLabel}
                     >
                       <WhatsAppIcon className="w-4 h-4 text-[#284B35]" />
                       <span className="hidden sm:inline">WhatsApp</span>
                     </a>
+                    </div>
                   </div>
                 </div>
               </article>
-            ))}
+            );
+            })}
           </div>
         ) : (
           /* VIEW 2: Refined High-End Table View */
@@ -232,9 +276,9 @@ export function ReadyToSellProducts({ dict, lang }: ReadyToSellProductsProps) {
         {/* Footer Note & High-Conversion Action Box */}
         <div className="mt-12 p-6 sm:p-8 rounded-2xl border border-[#E3DACD] bg-[#F1EBE1]/70 flex flex-col md:flex-row md:items-center md:justify-between gap-6 shadow-sm">
           <div>
-            <h4 className="font-serif text-[20px] sm:text-[22px] font-bold text-[#2A211C] mb-1.5">
+            <p className="font-serif text-[20px] sm:text-[22px] font-bold text-[#2A211C] mb-1.5">
               {dict.footerNote}
-            </h4>
+            </p>
             <p className="text-[15px] text-[#5E534B]">
               {getSubNote()}
             </p>

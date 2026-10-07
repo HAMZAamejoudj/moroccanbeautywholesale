@@ -125,10 +125,20 @@ const htaccessContent = `#######################################
 </IfModule>
 
 #######################################
-# ROUTING & FORCE WWW & NEXT.JS FIX
+# ROUTING — CANONICAL HOST (non-www HTTPS) & NEXT.JS
 #######################################
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  RewriteBase /
+
+  # 0. www → non-www (301, preserve path + query)
+  RewriteCond %{HTTP_HOST} ^www\\.moroccanbeautywholesale\\.com$ [NC]
+  RewriteRule ^ https://moroccanbeautywholesale.com%{REQUEST_URI} [R=301,L]
+
+  # 0b. http → https on apex domain
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP_HOST} ^moroccanbeautywholesale\\.com$ [NC]
+  RewriteRule ^ https://moroccanbeautywholesale.com%{REQUEST_URI} [R=301,L]
 
   # 1. Allow direct access to _next assets (CSS, JS, fonts, images)
   RewriteCond %{REQUEST_URI} ^/_next/ [NC]
@@ -138,10 +148,6 @@ const htaccessContent = `#######################################
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^ - [L]
-
-  # 3. Force WWW & HTTPS
-  RewriteCond %{HTTP_HOST} !^www\\.moroccanbeautywholesale\\.com$ [NC]
-  RewriteRule ^(.*)$ https://www.moroccanbeautywholesale.com/$1 [R=301,L]
 
   # 3b. Blog redirects (301). Existing files/folders were already served above.
   # Old single-page blog had no per-post URLs; these are safety nets for any old links.

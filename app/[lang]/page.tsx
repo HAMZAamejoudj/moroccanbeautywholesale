@@ -1,5 +1,7 @@
 import { Metadata } from "next";
 import { getDictionary } from "../dictionaries";
+import { buildPageMetadata } from "@/lib/seo";
+import type { SeoLocale } from "@/lib/seo";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { MarqueeBand } from "@/components/MarqueeBand";
@@ -28,10 +30,11 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
   const homeSeo = dict.newHome?.seo || dict.seo;
 
-  return {
+  return buildPageMetadata({
+    lang: lang as SeoLocale,
     title: homeSeo.title,
     description: homeSeo.description,
-  };
+  });
 }
 
 export default async function HomePage({

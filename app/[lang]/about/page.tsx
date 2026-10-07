@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { siteConfig } from "@/lib/siteConfig";
 import { getDictionary } from "../../dictionaries";
+import { buildPageMetadata, type SeoLocale } from "@/lib/seo";
 
 import { AboutBreadcrumb } from "@/components/AboutBreadcrumb";
 import { AboutHero } from "@/components/AboutHero";
@@ -25,39 +25,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const dict = await getDictionary(lang);
-  const canonicalUrl = `${siteConfig.url}/${lang}/about/`;
 
-  return {
-    title: {
-      absolute: dict.about.seo.title,
-    },
+  return buildPageMetadata({
+    lang: lang as SeoLocale,
+    segments: ["about"],
+    title: dict.about.seo.title,
     description: dict.about.seo.description,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        en: `${siteConfig.url}/en/about/`,
-        fr: `${siteConfig.url}/fr/about/`,
-        ar: `${siteConfig.url}/ar/about/`,
-        "x-default": `${siteConfig.url}/en/about/`,
-      },
+    ogImage: {
+      path: "/images/about-hero.webp",
+      alt: dict.about.seo.title,
     },
-    openGraph: {
-      title: dict.about.seo.title,
-      description: dict.about.seo.description,
-      url: canonicalUrl,
-      siteName: siteConfig.name,
-      locale: lang === "ar" ? "ar_MA" : lang === "fr" ? "fr_FR" : "en_US",
-      type: "website",
-      images: [
-        {
-          url: `${siteConfig.url}/images/about-hero.webp`,
-          width: 1200,
-          height: 1500,
-          alt: dict.about.seo.title,
-        },
-      ],
-    },
-  };
+  });
 }
 
 export default async function AboutPage({

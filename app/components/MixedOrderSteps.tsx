@@ -32,10 +32,10 @@ export function MixedOrderSteps({ dict }: MixedOrderStepsProps) {
               key={idx}
               className="relative flex flex-col rounded-xl border border-[#E3DACD] border-s-[3px] border-s-[#284B35] bg-[#F1EBE1]/25 ps-6 pe-5 py-6 min-h-[168px]"
             >
-              <h3 className="font-serif text-[17px] sm:text-[18px] font-bold text-[#2A211C] leading-snug mb-2">
+              <p className="font-serif text-[17px] sm:text-[18px] font-bold text-[#2A211C] leading-snug mb-2">
                 <span className="sr-only">{step.num}. </span>
                 {step.title}
-              </h3>
+              </p>
               <p className="text-[14px] sm:text-[15px] text-[#5E534B] leading-relaxed">
                 {step.desc}
               </p>

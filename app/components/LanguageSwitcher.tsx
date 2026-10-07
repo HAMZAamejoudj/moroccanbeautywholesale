@@ -2,6 +2,7 @@
 
 import { usePathname, useRouter } from "next/navigation";
 import { useState, useRef, useEffect } from "react";
+import { LocaleFlag } from "@/components/LocaleFlag";
 
 export function LanguageSwitcher() {
   const pathname = usePathname();
@@ -12,9 +13,9 @@ export function LanguageSwitcher() {
   const currentLang = pathname.split("/")[1] || "en";
 
   const languages = [
-    { code: "en", label: "English", flag: "gb" },
-    { code: "fr", label: "Français", flag: "fr" },
-    { code: "ar", label: "العربية", flag: "ma" },
+    { code: "en" as const, label: "English" },
+    { code: "fr" as const, label: "Français" },
+    { code: "ar" as const, label: "العربية" },
   ];
 
   const handleLanguageChange = (lang: string) => {
@@ -50,13 +51,7 @@ export function LanguageSwitcher() {
         aria-haspopup="listbox"
         className="inline-flex items-center justify-center w-11 h-11 rounded-lg hover:bg-[#F1EBE1] transition-colors bg-transparent"
       >
-        <img
-          src={`https://flagcdn.com/w40/${currentLanguage.flag}.png`}
-          alt=""
-          width={28}
-          height={21}
-          className="rounded-sm w-7 h-auto object-cover shadow-sm"
-        />
+        <LocaleFlag code={currentLanguage.code} decorative />
       </button>
 
       {isOpen && (
@@ -77,12 +72,7 @@ export function LanguageSwitcher() {
                   currentLang === lang.code ? "bg-accent/50 font-semibold text-foreground" : "font-medium text-muted-foreground hover:text-foreground"
                 }`}
               >
-                <img
-                  src={`https://flagcdn.com/w20/${lang.flag}.png`}
-                  alt={lang.label}
-                  width="20"
-                  className="rounded-sm shadow-sm"
-                />
+                <LocaleFlag code={lang.code} className="w-5 h-auto rounded-sm shadow-sm" />
                 {lang.label}
               </button>
             ))}

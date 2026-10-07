@@ -9,6 +9,7 @@ import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 import { siteConfig } from "@/lib/siteConfig";
 
 import { getDictionary } from "../../dictionaries";
+import { buildPageMetadata, type SeoLocale } from "@/lib/seo";
 
 type BenefitItem = { title: string; desc: string };
 
@@ -35,10 +36,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const dict = await getDictionary(lang);
-  return {
+  return buildPageMetadata({
+    lang: lang as SeoLocale,
+    segments: ["benefits"],
     title: dict.benefits.seo.title,
     description: dict.benefits.seo.description,
-  };
+  });
 }
 
 export function generateStaticParams() {

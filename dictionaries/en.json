@@ -879,32 +879,32 @@
           "id": "shops",
           "title": "Shops and concept stores",
           "description": "Moroccan beauty sells well next to home décor, tea and crafts. Ready-labelled products and gift sets in quantities a shop can actually move.",
-          "linkText": "See gift sets and hammam kits",
-          "href": "/contact/",
+          "linkText": "Wholesale argan oil guide",
+          "href": "/blog/wholesale-argan-oil-guide/",
           "image": "/images/audience-shops.webp"
         },
         {
           "id": "spas",
           "title": "Spas and hammams",
           "description": "Professional formats of black soap and ghassoul for treatments, kessa gloves by the pack, and retail sizes for your reception desk.",
-          "linkText": "See spa and hammam supplies",
-          "href": "/contact/",
+          "linkText": "Black soap guide for spas",
+          "href": "/blog/moroccan-black-soap-wholesale/",
           "image": "/images/audience-spas.webp"
         },
         {
           "id": "hotels",
           "title": "Hotels and riads",
           "description": "Argan oil, black soap and rose water for guest rooms and in-house spas - a small detail guests remember.",
-          "linkText": "See hotel amenities",
-          "href": "/contact/",
+          "linkText": "Hammam kits for hotels",
+          "href": "/blog/hammam-kit-hotels-spas/",
           "image": "/images/audience-hotels.webp"
         },
         {
           "id": "online",
           "title": "Online sellers",
           "description": "Retail-ready products with clear labels and ingredient lists, packed to travel well.",
-          "linkText": "See the catalog",
-          "href": "/contact/",
+          "linkText": "Sell under your own brand",
+          "href": "/private-label/",
           "image": "/images/about-hero.webp"
         }
       ]
@@ -921,19 +921,25 @@
           "name": "Argan oil (cosmetic)",
           "format": "On request",
           "popularWith": "Shops, online sellers, hotels",
-          "image": "/images/products/argan-oil-cosmetic.webp"
+          "image": "/images/products/argan-oil-cosmetic.webp",
+          "guideSlug": "wholesale-argan-oil-guide",
+          "guideLinkLabel": "Wholesale argan oil guide"
         },
         {
           "name": "Moroccan black soap",
           "format": "On request",
           "popularWith": "Spas, hammams, shops",
-          "image": "/images/products/moroccan-black-soap.webp"
+          "image": "/images/products/moroccan-black-soap.webp",
+          "guideSlug": "moroccan-black-soap-wholesale",
+          "guideLinkLabel": "Black soap wholesale guide"
         },
         {
           "name": "Ghassoul clay",
           "format": "On request",
           "popularWith": "Spas, shops",
-          "image": "/images/products/ghassoul-clay.webp"
+          "image": "/images/products/ghassoul-clay.webp",
+          "guideSlug": "rhassoul-clay-guide",
+          "guideLinkLabel": "Rhassoul clay guide"
         },
         {
           "name": "Rose water",
@@ -951,7 +957,9 @@
           "name": "Hammam kits",
           "format": "On request",
           "popularWith": "Shops, gift buyers, hotels",
-          "image": "/images/products/moroccan-hammam-kit.webp"
+          "image": "/images/products/moroccan-hammam-kit.webp",
+          "guideSlug": "hammam-kit-hotels-spas",
+          "guideLinkLabel": "Hammam kits guide"
         }
       ],
       "footerNote": "Ask for the price list to see current formats and prices.",
@@ -1031,7 +1039,7 @@
         },
         {
           "q": "Where is your factory?",
-          "a": "In Agadir, Morocco. Our address is Lot 377 N°3/6, Sidi Ghanem industrial zone, 40110 Marrakesh."
+          "a": "Our factory is in Agadir, Morocco. Our office is at Lot 377 N°3/6, Sidi Ghanem industrial zone, 40110 Marrakesh."
         },
         {
           "q": "Do you ship outside Morocco?",

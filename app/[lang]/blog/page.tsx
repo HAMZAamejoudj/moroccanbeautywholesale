@@ -7,6 +7,7 @@ import { BlogIndex } from "@/components/blog/BlogIndex";
 import { getPostMetas, type Locale } from "@/lib/blog";
 import { getUi } from "@/lib/blogUi";
 import { siteConfig } from "@/lib/siteConfig";
+import { buildPageMetadata, type SeoLocale } from "@/lib/seo";
 import { getDictionary } from "../../dictionaries";
 
 const seo: Record<Locale, { title: string; description: string }> = {
@@ -32,29 +33,23 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
   const { lang } = await params;
-  const url = `${siteConfig.url}/${lang}/blog/`;
-  return {
-    title: { absolute: seo[lang].title },
+  const base = buildPageMetadata({
+    lang: lang as SeoLocale,
+    segments: ["blog"],
+    title: seo[lang].title,
     description: seo[lang].description,
+    ogImage: {
+      path: "/images/blog/wholesale-argan-oil-guide-og.jpg",
+      alt: seo[lang].title,
+    },
+  });
+  return {
+    ...base,
+    title: { absolute: seo[lang].title },
     alternates: {
-      canonical: url,
-      languages: {
-        en: `${siteConfig.url}/en/blog/`,
-        fr: `${siteConfig.url}/fr/blog/`,
-        ar: `${siteConfig.url}/ar/blog/`,
-        "x-default": `${siteConfig.url}/en/blog/`,
-      },
+      ...base.alternates,
       types: { "application/rss+xml": `${siteConfig.url}/${lang}/blog/rss.xml` },
     },
-    openGraph: {
-      type: "website",
-      url,
-      siteName: siteConfig.name,
-      title: seo[lang].title,
-      description: seo[lang].description,
-      images: [{ url: `${siteConfig.url}/images/blog/wholesale-argan-oil-guide-og.jpg`, width: 1200, height: 630 }],
-    },
-    twitter: { card: "summary_large_image", title: seo[lang].title, description: seo[lang].description },
   };
 }
 

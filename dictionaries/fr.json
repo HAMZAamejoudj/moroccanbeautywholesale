@@ -852,32 +852,32 @@
           "id": "shops",
           "title": "Boutiques et concept stores",
           "description": "La beauté marocaine se vend très bien aux côtés de la décoration, du thé et de l'artisanat. Produits finis étiquetés et coffrets cadeaux en volumes adaptés aux boutiques indépendantes.",
-          "linkText": "Voir coffrets et kits hammam",
-          "href": "/contact/",
+          "linkText": "Guide huile d'argan en gros",
+          "href": "/blog/wholesale-argan-oil-guide/",
           "image": "/images/audience-shops.webp"
         },
         {
           "id": "spas",
           "title": "Spas et hammams",
           "description": "Formats professionnels de savon noir et rhassoul pour les cabines de soin, gants de kessa par lot et formats revente pour votre comptoir d'accueil.",
-          "linkText": "Voir fournitures spa et hammam",
-          "href": "/contact/",
+          "linkText": "Guide savon noir pour spas",
+          "href": "/blog/moroccan-black-soap-wholesale/",
           "image": "/images/audience-spas.webp"
         },
         {
           "id": "hotels",
           "title": "Hôtels et riads",
           "description": "Huile d'argan, savon noir et eau de rose pour chambres d'hôtes et spas intégrés — une attention raffinée dont les clients se souviennent.",
-          "linkText": "Voir produits d'accueil hôtel",
-          "href": "/contact/",
+          "linkText": "Kits hammam pour hôtels",
+          "href": "/blog/hammam-kit-hotels-spas/",
           "image": "/images/audience-hotels.webp"
         },
         {
           "id": "online",
           "title": "Vendeurs en ligne",
           "description": "Produits prêts à la commercialisation avec étiquetage clair et liste d'ingrédients, soigneusement emballés pour le transport.",
-          "linkText": "Voir le catalogue",
-          "href": "/contact/",
+          "linkText": "Vendre sous votre marque",
+          "href": "/private-label/",
           "image": "/images/about-hero.webp"
         }
       ]
@@ -894,19 +894,25 @@
           "name": "Huile d'argan (cosmétique)",
           "format": "Sur demande",
           "popularWith": "Boutiques, e-commerce, hôtels",
-          "image": "/images/hero-ingredients-background.webp"
+          "image": "/images/hero-ingredients-background.webp",
+          "guideSlug": "wholesale-argan-oil-guide",
+          "guideLinkLabel": "Guide huile d'argan en gros"
         },
         {
           "name": "Savon noir marocain",
           "format": "Sur demande",
           "popularWith": "Spas, hammams, boutiques",
-          "image": "/images/card-premium-oils.webp"
+          "image": "/images/card-premium-oils.webp",
+          "guideSlug": "moroccan-black-soap-wholesale",
+          "guideLinkLabel": "Guide savon noir en gros"
         },
         {
           "name": "Argile Ghassoul",
           "format": "Sur demande",
           "popularWith": "Spas, boutiques",
-          "image": "/images/hero-ingredients-background.webp"
+          "image": "/images/hero-ingredients-background.webp",
+          "guideSlug": "rhassoul-clay-guide",
+          "guideLinkLabel": "Guide rhassoul"
         },
         {
           "name": "Eau de rose",
@@ -924,7 +930,9 @@
           "name": "Kits de hammam",
           "format": "Sur demande",
           "popularWith": "Boutiques, cadeaux, hôtels",
-          "image": "/images/card-premium-oils.webp"
+          "image": "/images/card-premium-oils.webp",
+          "guideSlug": "hammam-kit-hotels-spas",
+          "guideLinkLabel": "Guide kits hammam"
         }
       ],
       "footerNote": "Demandez la liste de prix pour consulter les formats actuels et les tarifs.",
@@ -1004,7 +1012,7 @@
         },
         {
           "q": "Où se trouve votre atelier de production ?",
-          "a": "À Agadir, au Maroc. Notre adresse est Lot 377 N°3/6, Zone industrielle Sidi Ghanem, 40110 Marrakech."
+          "a": "Notre usine est à Agadir, Maroc. Notre bureau est au Lot 377 N°3/6, zone industrielle Sidi Ghanem, 40110 Marrakech."
         },
         {
           "q": "Livrez-vous en dehors du Maroc ?",

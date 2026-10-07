@@ -14,6 +14,7 @@ import { BlogJsonLd } from "@/components/blog/BlogJsonLd";
 import { LOCALES, getAllSlugs, getPost, getPostMetas, isTranslated, ogSrc, coverSrc, type Locale } from "@/lib/blog";
 import { formatDate, getUi } from "@/lib/blogUi";
 import { siteConfig } from "@/lib/siteConfig";
+import { openGraphLocales } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -36,6 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   languages["x-default"] = urlFor("en");
 
   const image = `${siteConfig.url}${ogSrc(slug)}`;
+  const { locale, alternateLocale } = openGraphLocales(post.contentLocale);
   return {
     title: { absolute: post.metaTitle },
     description: post.metaDescription,
@@ -46,12 +48,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: siteConfig.name,
       title: post.metaTitle,
       description: post.metaDescription,
-      locale: post.contentLocale === "ar" ? "ar_MA" : post.contentLocale === "fr" ? "fr_FR" : "en_US",
+      locale,
+      alternateLocale,
       publishedTime: post.date,
       modifiedTime: post.updated ?? post.date,
       images: [{ url: image, width: 1200, height: 630, alt: post.coverAlt }],
     },
-    twitter: { card: "summary_large_image", title: post.metaTitle, description: post.metaDescription, images: [image] },
+    twitter: {
+      card: "summary_large_image",
+      title: post.metaTitle,
+      description: post.metaDescription,
+      images: [image],
+    },
   };
 }
 

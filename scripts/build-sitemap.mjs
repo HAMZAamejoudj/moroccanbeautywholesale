@@ -5,7 +5,7 @@ import path from "path";
 import matter from "gray-matter";
 
 const root = path.resolve(import.meta.dirname, "..");
-const base = "https://www.moroccanbeautywholesale.com";
+const base = "https://moroccanbeautywholesale.com";
 const sitemapPath = path.join(root, "public/sitemap.xml");
 
 const read = (lang, file) => matter(fs.readFileSync(path.join(root, "content/blog", lang, file), "utf8")).data;

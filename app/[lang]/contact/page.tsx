@@ -8,14 +8,17 @@ import { site } from "@/lib/site";
 import { siteConfig } from "@/lib/siteConfig";
 
 import { getDictionary } from "../../dictionaries";
+import { buildPageMetadata, type SeoLocale } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: "en" | "fr" | "ar" }> }): Promise<Metadata> {
   const { lang } = await params;
   const dict = await getDictionary(lang);
-  return {
+  return buildPageMetadata({
+    lang: lang as SeoLocale,
+    segments: ["contact"],
     title: dict.contactPage.seo.title,
     description: dict.contactPage.seo.description,
-  };
+  });
 }
 
 export function generateStaticParams() {
