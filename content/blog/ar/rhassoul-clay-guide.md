@@ -9,8 +9,8 @@ category: "المكونات"
 date: "2026-09-21"
 readingTime: 5
 excerpt: "الرحاسول هو الطين المغربي في الحمام منذ قرون. كيف يُستخدم، أي شكل تختار، وما الذي تتحقق منه قبل الطلب بالجملة."
-coverImage: "Own photo: rhassoul powder in a clay bowl next to raw rhassoul flakes"
-coverAlt: "بودرة الرحاسول ورقائق خام من جبال الأطلس"
+coverImage: "خط منتجات تجميل مغربية بالجملة مع غاسول بودرة"
+coverAlt: "برطمان مسحوق الغاسول مع زيت الأركان والصابون الأسود على سطح معدني"
 related: ["moroccan-black-soap-wholesale", "hammam-kit-hotels-spas"]
 ---
 

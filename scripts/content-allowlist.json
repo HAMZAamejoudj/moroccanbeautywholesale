@@ -1,0 +1,4 @@
+{
+  "_note": "Blog pages explain what a COA/SDS/certificate is (buyer education, approved text). They never claim we hold certifications. Everything else is scanned strictly.",
+  "^(en|fr|ar)/blog/(index[.]html|[a-z0-9-]+/index[.]html)$": ["COA", "SDS", "Certificate", "Certificates", "Certification", "certificate", "certificates", "certification", "Certificat", "certificat", "شهادة"]
+}

@@ -53,9 +53,9 @@ export function AboutWhatWeDo({ dict }: AboutWhatWeDoProps) {
                   <div className="w-12 h-12 rounded-xl bg-brand-green/10 flex items-center justify-center text-brand-green mb-5 shrink-0">
                     <Icon className="w-6 h-6" />
                   </div>
-                  <h3 className="font-serif text-[20px] sm:text-[21px] font-bold text-deep-brown mb-2.5 leading-snug">
+                  <p className="font-serif text-[20px] sm:text-[21px] font-bold text-deep-brown mb-2.5 leading-snug">
                     {item.lead}
-                  </h3>
+                  </p>
                   <p className="text-[15px] sm:text-[16px] text-warm-secondary leading-relaxed">
                     {item.text}
                   </p>
@@ -76,9 +76,9 @@ export function AboutWhatWeDo({ dict }: AboutWhatWeDoProps) {
                   <div className="w-12 h-12 rounded-xl bg-brand-green/10 flex items-center justify-center text-brand-green mb-5 shrink-0">
                     <Icon className="w-6 h-6" />
                   </div>
-                  <h3 className="font-serif text-[20px] sm:text-[21px] font-bold text-deep-brown mb-2.5 leading-snug">
+                  <p className="font-serif text-[20px] sm:text-[21px] font-bold text-deep-brown mb-2.5 leading-snug">
                     {item.lead}
-                  </h3>
+                  </p>
                   <p className="text-[15px] sm:text-[16px] text-warm-secondary leading-relaxed">
                     {item.text}
                   </p>

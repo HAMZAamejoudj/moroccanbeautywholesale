@@ -1,10 +1,10 @@
 import { Metadata } from "next";
+import { PageSchemas } from "@/components/PageSchemas";
 import { getDictionary } from "../dictionaries";
 import { buildPageMetadata } from "@/lib/seo";
 import type { SeoLocale } from "@/lib/seo";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
-import { MarqueeBand } from "@/components/MarqueeBand";
 import { WhoItIsFor } from "@/components/WhoItIsFor";
 import { ReadyToSellProducts } from "@/components/ReadyToSellProducts";
 import { MixedOrderSteps } from "@/components/MixedOrderSteps";
@@ -15,7 +15,6 @@ import { HomeFAQ } from "@/components/HomeFAQ";
 import { GetPriceListSection } from "@/components/GetPriceListSection";
 import { Footer } from "@/components/Footer";
 import { MobileStickyBar } from "@/components/MobileStickyBar";
-import { StructuredData } from "@/components/StructuredData";
 
 export function generateStaticParams() {
   return [{ lang: "en" }, { lang: "fr" }, { lang: "ar" }];
@@ -51,7 +50,6 @@ export default async function HomePage({
       <Header />
       <main className="flex-grow">
         <Hero dict={homeDict.hero} lang={lang} />
-        <MarqueeBand dict={dict.marquee} />
         <WhoItIsFor dict={homeDict.whoItsFor} lang={lang} />
         <ReadyToSellProducts dict={homeDict.products} lang={lang} />
         <MixedOrderSteps dict={homeDict.mixedOrder} lang={lang} />
@@ -62,8 +60,8 @@ export default async function HomePage({
         <GetPriceListSection dict={homeDict.getPriceList} lang={lang} />
       </main>
       <Footer />
+      <PageSchemas lang={lang} website faq={homeDict.faq.items} />
       <MobileStickyBar />
-      <StructuredData lang={lang} includeHomeSchemas={true} />
     </div>
   );
 }

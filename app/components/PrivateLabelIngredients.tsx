@@ -182,9 +182,10 @@ export function PrivateLabelIngredients({
                         <Image
                           src={imageSrc}
                           alt={item.name}
-                          fill
+                          width={1200}
+                          height={900}
                           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                          className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                          className="absolute inset-0 h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                           loading="lazy"
                         />
                       </div>
@@ -192,9 +193,9 @@ export function PrivateLabelIngredients({
                       {/* Card Body */}
                       <div className="p-5 sm:p-6 flex flex-col flex-1 justify-between">
                         <div>
-                          <h4 className="font-serif text-[19px] sm:text-[21px] font-bold text-deep-brown mb-2 group-hover:text-brand-green transition-colors leading-snug">
+                          <p className="font-serif text-[19px] sm:text-[21px] font-bold text-deep-brown mb-2 group-hover:text-brand-green transition-colors leading-snug">
                             {item.name}
-                          </h4>
+                          </p>
                           <p className="text-[14px] sm:text-[15px] text-warm-secondary leading-relaxed mb-5">
                             {item.desc}
                           </p>

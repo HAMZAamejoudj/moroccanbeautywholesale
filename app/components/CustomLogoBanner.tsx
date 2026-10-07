@@ -46,9 +46,10 @@ export function CustomLogoBanner({ dict, lang }: CustomLogoBannerProps) {
               <Image
                 src={dict.image || "/images/private-label-showcase.webp"}
                 alt="Finished cosmetics with custom brand labels and elegant packaging"
-                fill
+                width={1200}
+                height={900}
                 sizes="(max-width: 1024px) 100vw, 40vw"
-                className="object-cover object-center"
+                className="absolute inset-0 h-full w-full object-cover object-center"
               />
             </div>
           </div>

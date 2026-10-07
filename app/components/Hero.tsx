@@ -97,10 +97,11 @@ export function Hero({ dict, lang }: HeroProps) {
               <Image
                 src="/images/hero-products-showcase.webp"
                 alt="Moroccan beauty wholesale products: argan oil bottles, prickly pear oil, black soap jars, ghassoul clay, and cosmetic serums ready to sell"
-                fill
+                width={1200}
+                height={900}
                 priority
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.02]"
+                className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.02]"
               />
 
               {/* Top Corner Floating MOQ Badge */}
@@ -126,9 +127,10 @@ export function Hero({ dict, lang }: HeroProps) {
                 <Image
                   src="/images/hero-batch-workshop.webp"
                   alt="Production batch of Moroccan cosmetic jars in workshop"
-                  fill
+                  width={160}
+                  height={160}
                   sizes="56px"
-                  className="object-cover"
+                  className="absolute inset-0 h-full w-full object-cover"
                 />
               </div>
               <div className="min-w-0">

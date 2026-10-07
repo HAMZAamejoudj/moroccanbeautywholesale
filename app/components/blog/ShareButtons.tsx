@@ -40,15 +40,20 @@ export function ShareButtons({ url, title, lang }: { url: string; title: string;
         <WhatsAppIcon className="h-4 w-4" />
         {ui.whatsapp}
       </a>
-      <a
-        href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`}
-        target="_blank"
-        rel="noopener noreferrer"
+      <button
+        type="button"
+        onClick={() =>
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`,
+            "_blank",
+            "noopener,noreferrer",
+          )
+        }
         className={base}
       >
         <Linkedin className="h-4 w-4" aria-hidden="true" />
         {ui.linkedin}
-      </a>
+      </button>
       <a href={`mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(url)}`} className={base}>
         <Mail className="h-4 w-4" aria-hidden="true" />
         {ui.email}

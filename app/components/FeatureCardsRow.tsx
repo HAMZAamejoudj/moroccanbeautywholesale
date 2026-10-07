@@ -18,9 +18,10 @@ export function FeatureCardsRow() {
                 <Image
                   src={card.image.src}
                   alt={card.image.alt}
-                  fill
+                  width={1200}
+                  height={900}
                   sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                  className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
+                  className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-rich-brown/35 via-rich-brown/5 to-transparent" />
                 <div className="absolute top-4 left-4">

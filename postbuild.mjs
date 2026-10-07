@@ -58,6 +58,18 @@ processHtmlFiles(outDir);
 // 3. Copy .htaccess into out/ directory
 // ============================================
 const htaccessContent = `#######################################
+# CANONICAL HOST + HTTPS (must stay first)
+# Primary host: https://moroccanbeautywholesale.com (non-www)
+#######################################
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\\. [NC]
+  RewriteRule ^(.*)$ https://moroccanbeautywholesale.com/$1 [R=301,L]
+  RewriteRule ^$ /en/ [R=301,L]
+</IfModule>
+
+#######################################
 # CHARSET FIX (UTF-8)
 #######################################
 <IfModule mod_headers.c>
@@ -131,35 +143,25 @@ const htaccessContent = `#######################################
   RewriteEngine On
   RewriteBase /
 
-  # 0. www → non-www (301, preserve path + query)
-  RewriteCond %{HTTP_HOST} ^www\\.moroccanbeautywholesale\\.com$ [NC]
-  RewriteRule ^ https://moroccanbeautywholesale.com%{REQUEST_URI} [R=301,L]
+  # Never touch static assets or crawler files
+  RewriteRule ^(_next|images|favicon)/ - [L]
+  RewriteRule ^(sitemap\\.xml|robots\\.txt|llms\\.txt)$ - [L]
 
-  # 0b. http → https on apex domain
-  RewriteCond %{HTTPS} off
-  RewriteCond %{HTTP_HOST} ^moroccanbeautywholesale\\.com$ [NC]
-  RewriteRule ^ https://moroccanbeautywholesale.com%{REQUEST_URI} [R=301,L]
+  # Legacy root-level pages -> language folder
+  RewriteRule ^(about|benefits|blog|contact|private-label)/?$ /en/$1/ [R=301,L]
 
-  # 1. Allow direct access to _next assets (CSS, JS, fonts, images)
-  RewriteCond %{REQUEST_URI} ^/_next/ [NC]
-  RewriteRule ^ - [L]
-
-  # 2. Allow direct access to static files and directories
+  # Allow direct access to existing files and directories
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^ - [L]
 
   # 3b. Blog redirects (301). Existing files/folders were already served above.
   # Old single-page blog had no per-post URLs; these are safety nets for any old links.
-  RewriteRule ^blog/?$ /en/blog/ [R=301,L]
   RewriteRule ^(en|fr|ar)/blog/(argan-oil-hair|argan-oil-hair-growth|argan-oil-revitalizing|organic-argan-oil-know)/?$ /$1/blog/wholesale-argan-oil-guide/ [R=301,L]
   RewriteRule ^(en|fr|ar)/blog/where-to-buy/?$ /$1/blog/importing-moroccan-cosmetics/ [R=301,L]
   RewriteRule ^(en|fr|ar)/blog/(prickly-pear-choose|prickly-pear-vs-argan|how-to-use-prickly-pear|aker-fassi)/?$ /$1/blog/ [R=301,L]
   # Any other unknown blog post URL falls back to the blog index
   RewriteRule ^(en|fr|ar)/blog/[^/]+/?$ /$1/blog/ [R=301,L]
-
-  # 4. Server 301 redirect root / to /en/
-  RewriteRule ^$ /en/ [R=301,L]
 
   # 5. Try adding /index.html for directory-style URLs
   RewriteCond %{REQUEST_FILENAME}/index.html -f

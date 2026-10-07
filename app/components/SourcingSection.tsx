@@ -33,9 +33,10 @@ export function SourcingSection({ dict }: SourcingSectionProps) {
               <Image
                 src={dict.image || "/images/private-label-sourcing.webp"}
                 alt="Moroccan beauty products being labeled and packed at our Agadir workshop"
-                fill
+                width={1200}
+                height={900}
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover object-center"
+                className="absolute inset-0 h-full w-full object-cover object-center"
               />
             </div>
           </div>

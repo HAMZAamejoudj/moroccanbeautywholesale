@@ -100,12 +100,8 @@ export function ReadyToSellProducts({ dict, lang }: ReadyToSellProductsProps) {
               const guideHref = item.guideSlug
                 ? `/${lang}/blog/${item.guideSlug}/`
                 : null;
-              const priceLabel =
-                lang === "ar"
-                  ? `اطلب قائمة أسعار ${item.name}`
-                  : lang === "fr"
-                  ? `Demander les prix : ${item.name}`
-                  : `Ask for the ${item.name} price list`;
+              // Accessible name starts with the visible link text (WCAG 2.5.3)
+              const priceLabel = `${dict.cta}: ${item.name}`;
               const waLabel =
                 lang === "ar"
                   ? `واتساب — ${item.name}`
@@ -125,9 +121,10 @@ export function ReadyToSellProducts({ dict, lang }: ReadyToSellProductsProps) {
                     <Image
                       src={item.image}
                       alt={item.name}
-                      fill
+                      width={1200}
+                      height={900}
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
+                      className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
                     />
                   </Link>
                 ) : (
@@ -135,9 +132,10 @@ export function ReadyToSellProducts({ dict, lang }: ReadyToSellProductsProps) {
                   <Image
                     src={item.image}
                     alt={item.name}
-                    fill
+                    width={1200}
+                    height={900}
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
+                    className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
                   />
                 </div>
                 )}
@@ -145,9 +143,9 @@ export function ReadyToSellProducts({ dict, lang }: ReadyToSellProductsProps) {
                 {/* Card Body */}
                 <div className="p-6 sm:p-7 flex flex-col flex-1 justify-between bg-white">
                   <div>
-                    <h3 className="font-serif text-[22px] sm:text-[23px] font-bold text-[#2A211C] group-hover:text-[#284B35] transition-colors leading-snug mb-3.5">
+                    <p className="font-serif text-[22px] sm:text-[23px] font-bold text-[#2A211C] group-hover:text-[#284B35] transition-colors leading-snug mb-3.5">
                       {item.name}
-                    </h3>
+                    </p>
 
                     <div className="space-y-2.5 mb-6 pb-4 border-b border-[#E3DACD]/70 text-[14px] text-[#5E534B] leading-relaxed">
                       <p>
@@ -236,9 +234,10 @@ export function ReadyToSellProducts({ dict, lang }: ReadyToSellProductsProps) {
                           <Image
                             src={item.image}
                             alt={item.name}
-                            fill
+                            width={160}
+                            height={160}
                             sizes="80px"
-                            className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                            className="absolute inset-0 h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                           />
                         </div>
                         <span className="font-serif text-[18px] sm:text-[19px] font-bold text-[#2A211C] group-hover:text-[#284B35] transition-colors block">

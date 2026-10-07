@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import { StaticRedirect } from "@/components/StaticRedirect";
 
 export default function PrivateLabelRedirect() {
-  redirect("/en/private-label");
+  return <StaticRedirect to="/en/private-label/" title="Private Label | Moroccan Beauty Wholesale" />;
 }

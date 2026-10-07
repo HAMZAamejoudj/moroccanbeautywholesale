@@ -9,8 +9,8 @@ category: "Ingredients"
 date: "2026-09-21"
 readingTime: 5
 excerpt: "Rhassoul is the Moroccan clay used in hammams for centuries. Learn how it is used, which form to choose, and what to check before ordering in bulk."
-coverImage: "Own photo: rhassoul powder in a clay bowl next to raw rhassoul flakes"
-coverAlt: "Rhassoul clay powder and raw flakes from the Atlas Mountains"
+coverImage: "Moroccan wholesale beauty line with ghassoul powder jar"
+coverAlt: "Moroccan ghassoul clay powder jar with argan oil and black soap on a stainless steel counter"
 related: ["moroccan-black-soap-wholesale", "hammam-kit-hotels-spas"]
 ---
 

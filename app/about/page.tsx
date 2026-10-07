@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import { StaticRedirect } from "@/components/StaticRedirect";
 
 export default function AboutRedirect() {
-  redirect("/en/about");
+  return <StaticRedirect to="/en/about/" title="About | Moroccan Beauty Wholesale" />;
 }

@@ -108,44 +108,11 @@
   }
 }
 
-/* Continuous Marquee Animation (marquee-scroll avoids Tailwind keyframe name clash) */
-@keyframes marquee-scroll {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-  to {
-    transform: translate3d(-50%, 0, 0);
-  }
-}
-
-.marquee-track {
-  display: flex;
-  flex-wrap: nowrap;
-  width: max-content;
-  will-change: transform;
-  animation: marquee-scroll 35s linear infinite;
-  animation-play-state: running;
-}
-
-.marquee-track:hover {
-  animation-play-state: paused;
-}
-
-.marquee-track--carriers {
-  animation-duration: 40s;
-}
-
-/* Reduced motion: keep marquee readable but slower; soften other motion */
+/* Reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
-  }
-
-  .marquee-track,
-  .marquee-track--carriers {
-    animation-duration: 55s !important;
-    animation-iteration-count: infinite !important;
   }
 }
 

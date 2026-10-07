@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { PageSchemas } from "@/components/PageSchemas";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -24,7 +25,6 @@ import {
   Zap,
   type LucideIcon,
 } from "lucide-react";
-import { MarqueeBand } from "@/components/MarqueeBand";
 import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 import { PrivateLabelIngredients } from "@/components/PrivateLabelIngredients";
 import { siteConfig } from "@/lib/siteConfig";
@@ -101,9 +101,10 @@ export default async function PrivateLabelPage({
             <Image
               src="/images/private-label-hero-jars.webp"
               alt="Unlabeled cosmetic jars and bottles ready for private label branding"
-              fill
+              width={1600}
+              height={1200}
               sizes="100vw"
-              className="object-cover object-center brightness-[0.92]"
+              className="absolute inset-0 h-full w-full object-cover object-center brightness-[0.92]"
               priority
             />
             <div className="absolute inset-0 bg-gradient-to-b from-white/55 via-deep-brown/15 to-white/50" />
@@ -148,7 +149,6 @@ export default async function PrivateLabelPage({
           </div>
         </section>
 
-        <MarqueeBand dict={dict.marquee} />
 
         {/* Intro Section */}
         <section className="container px-4 lg:px-8 py-16 lg:py-24">
@@ -207,12 +207,12 @@ export default async function PrivateLabelPage({
                       >
                         {String(idx + 1).padStart(2, "0")}
                       </span>
-                      <h3 className="font-serif text-lg lg:text-xl font-bold text-foreground leading-snug mb-2.5">
+                      <p className="font-serif text-lg lg:text-xl font-bold text-foreground leading-snug mb-2.5">
                         <span className="sr-only">
                           {idx + 1}.{" "}
                         </span>
                         {step.title}
-                      </h3>
+                      </p>
                       <p className="text-[14px] sm:text-[15px] text-deep-brown leading-relaxed mt-auto">
                         {step.desc}
                       </p>
@@ -283,9 +283,9 @@ export default async function PrivateLabelPage({
                       className="w-8 h-8 text-brand-green shrink-0"
                       strokeWidth={2}
                     />
-                    <h3 className="font-bold text-xl text-foreground">
+                    <p className="font-serif font-bold text-xl text-foreground">
                       {item.title}
-                    </h3>
+                    </p>
                     <p className="text-deep-brown">{item.desc}</p>
                   </div>
                 );
@@ -406,9 +406,9 @@ export default async function PrivateLabelPage({
               </div>
               <div className="px-6 pb-10 sm:px-10 sm:pb-12 lg:px-12 lg:py-14 bg-background/80 border-t lg:border-t-0 lg:border-s border-border flex flex-col justify-center gap-6">
                 <div className="text-start max-w-md mx-auto lg:mx-0 w-full">
-                  <h3 className="font-semibold text-lg mb-4 text-foreground">
+                  <p className="font-serif font-semibold text-lg mb-4 text-foreground">
                     {pl.cta.contactTitle}
-                  </h3>
+                  </p>
                   <ul className="space-y-3">
                     {pl.cta.contactItems.map((item: string, idx: number) => (
                       <li
@@ -445,6 +445,7 @@ export default async function PrivateLabelPage({
       </main>
 
       <Footer />
+      <PageSchemas lang={lang} section="private-label" />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
+import { PageSchemas } from "@/components/PageSchemas";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { MarqueeBand } from "@/components/MarqueeBand";
 import { GetPriceListSection } from "@/components/GetPriceListSection";
 import { BlogIndex } from "@/components/blog/BlogIndex";
 import { getPostMetas, type Locale } from "@/lib/blog";
@@ -79,7 +79,6 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: Loc
           <p className="mx-auto mt-4 max-w-2xl text-[17px] leading-relaxed text-warm-secondary sm:text-lg">{ui.subtitle}</p>
         </section>
 
-        <MarqueeBand dict={dict.marquee} />
 
         <BlogIndex posts={posts} lang={lang} />
 
@@ -95,6 +94,7 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: Loc
       </main>
 
       <Footer />
+      <PageSchemas lang={lang} section="blog" />
     </div>
   );
 }

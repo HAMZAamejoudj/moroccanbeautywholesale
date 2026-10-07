@@ -29,9 +29,9 @@ export function AboutExpectations({ dict }: AboutExpectationsProps) {
                 <Check className="w-4 h-4 stroke-[2.5]" />
               </div>
 
-              <h3 className="font-serif text-[22px] sm:text-[24px] font-bold text-deep-brown leading-snug mb-3">
+              <p className="font-serif text-[22px] sm:text-[24px] font-bold text-deep-brown leading-snug mb-3">
                 {item.title}
-              </h3>
+              </p>
 
               <p className="text-[16px] sm:text-[17px] text-warm-secondary leading-[1.7]">
                 {item.text}

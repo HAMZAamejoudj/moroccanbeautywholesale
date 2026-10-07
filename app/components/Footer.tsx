@@ -282,7 +282,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar: Copyright only (No keywords) */}
-        <div className="pt-8 text-xs text-[#7E7268] text-center sm:text-left">
+        <div className="pt-8 text-xs text-[#5E534B] text-center sm:text-left">
           <p>{t.copyright}</p>
         </div>
       </div>

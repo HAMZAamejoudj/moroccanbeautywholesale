@@ -9,8 +9,8 @@ category: "Ingrédients"
 date: "2026-09-21"
 readingTime: 5
 excerpt: "La rhassoul est l'argile marocaine du hammam depuis des siècles. Comment l'utiliser, quelle forme choisir, et quoi vérifier avant un achat en vrac."
-coverImage: "Own photo: rhassoul powder in a clay bowl next to raw rhassoul flakes"
-coverAlt: "Poudre de rhassoul et éclats bruts des montagnes de l'Atlas"
+coverImage: "Gamme beauté marocaine en gros avec pot de poudre ghassoul"
+coverAlt: "Pot de poudre ghassoul avec huile d'argan et savon noir sur un comptoir inox"
 related: ["moroccan-black-soap-wholesale", "hammam-kit-hotels-spas"]
 ---
 

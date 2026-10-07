@@ -2,13 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- Homepage -->
+  <!-- home -->
   <url>
     <loc>https://moroccanbeautywholesale.com/en/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -17,6 +18,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -25,16 +28,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- About -->
+  <!-- about -->
   <url>
     <loc>https://moroccanbeautywholesale.com/en/about/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/about/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/about/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/about/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -43,6 +49,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/about/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/about/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/about/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -51,16 +59,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/about/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/about/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/about/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/about/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Benefits -->
+  <!-- benefits -->
   <url>
     <loc>https://moroccanbeautywholesale.com/en/benefits/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/benefits/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/benefits/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/benefits/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/benefits/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -69,6 +80,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/benefits/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/benefits/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/benefits/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/benefits/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -77,42 +90,50 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/benefits/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/benefits/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/benefits/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/benefits/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Private Label -->
+  <!-- private-label -->
   <url>
     <loc>https://moroccanbeautywholesale.com/en/private-label/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/private-label/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/private-label/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/private-label/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/private-label/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://moroccanbeautywholesale.com/fr/private-label/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/private-label/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/private-label/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/private-label/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/private-label/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://moroccanbeautywholesale.com/ar/private-label/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/private-label/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/private-label/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/private-label/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/private-label/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
-
-  <!-- Contact -->
+  <!-- contact -->
   <url>
     <loc>https://moroccanbeautywholesale.com/en/contact/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/contact/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/contact/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/contact/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -121,6 +142,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/contact/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/contact/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/contact/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -129,12 +152,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/contact/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/contact/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/contact/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/contact/" />
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-
-  <!-- Blog -->
+  <!-- blog -->
   <url>
     <loc>https://moroccanbeautywholesale.com/en/blog/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/" />
@@ -150,6 +173,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/" />
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -159,6 +183,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://moroccanbeautywholesale.com/en/blog/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://moroccanbeautywholesale.com/fr/blog/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://moroccanbeautywholesale.com/ar/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://moroccanbeautywholesale.com/en/blog/" />
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

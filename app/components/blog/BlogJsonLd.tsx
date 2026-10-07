@@ -39,6 +39,7 @@ export function BlogJsonLd({ post, lang, url, blogLabel, homeLabel }: { post: Po
     graph.push({
       "@context": "https://schema.org",
       "@type": "FAQPage",
+      inLanguage: post.contentLocale,
       mainEntity: post.faq.map((f) => ({
         "@type": "Question",
         name: f.question,

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
+import { PageSchemas } from "@/components/PageSchemas";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ArrowLeft, ArrowRight, CheckCircle2 } from "lucide-react";
-import { MarqueeBand } from "@/components/MarqueeBand";
 import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 import { siteConfig } from "@/lib/siteConfig";
 
@@ -111,7 +111,6 @@ export default async function BenefitsPage({
           </div>
         </section>
 
-        <MarqueeBand dict={dict.marquee} />
 
         {/* Ingredients Grid */}
         <section className="container px-4 lg:px-8 mb-16 lg:mb-24 mt-16">
@@ -142,9 +141,9 @@ export default async function BenefitsPage({
                   </p>
 
                   <div className="space-y-3">
-                    <h3 className="font-bold text-[13px] text-foreground uppercase tracking-wider">
+                    <p className="font-serif font-bold text-[13px] text-foreground uppercase tracking-wider">
                       {ingredient.keyBenefitsLabel}
-                    </h3>
+                    </p>
                     <ul className="space-y-2">
                       {ingredient.benefits.map((benefit, bIndex) => (
                         <li key={bIndex} className="flex items-start gap-2 text-sm">
@@ -287,6 +286,7 @@ export default async function BenefitsPage({
       </main>
 
       <Footer />
+      <PageSchemas lang={lang} section="benefits" />
     </div>
   );
 }

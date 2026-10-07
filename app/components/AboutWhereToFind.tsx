@@ -51,9 +51,9 @@ export function AboutWhereToFind({ dict }: AboutWhereToFindProps) {
               </div>
               <div>
                 <div className="flex items-center gap-2 mb-1">
-                  <h3 className="font-serif text-[18px] sm:text-[19px] font-bold text-deep-brown">
+                  <p className="font-serif text-[18px] sm:text-[19px] font-bold text-deep-brown">
                     {dict.labels.office || "Office"}
-                  </h3>
+                  </p>
                   <span className="text-[13px] text-warm-secondary/80 font-medium">
                     · {dict.labels.officeSubtitle || dict.visitsText}
                   </span>
@@ -71,9 +71,9 @@ export function AboutWhereToFind({ dict }: AboutWhereToFindProps) {
               </div>
               <div>
                 <div className="flex items-center gap-2 mb-1">
-                  <h3 className="font-serif text-[18px] sm:text-[19px] font-bold text-deep-brown">
+                  <p className="font-serif text-[18px] sm:text-[19px] font-bold text-deep-brown">
                     {dict.labels.factory || "Factory"}
-                  </h3>
+                  </p>
                   <span className="text-[13px] text-warm-secondary/80 font-medium">
                     · {dict.labels.factorySubtitle || "Agadir, Morocco"}
                   </span>
@@ -90,9 +90,9 @@ export function AboutWhereToFind({ dict }: AboutWhereToFindProps) {
                 <Mail className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="font-serif text-[18px] sm:text-[19px] font-bold text-deep-brown mb-1">
+                <p className="font-serif text-[18px] sm:text-[19px] font-bold text-deep-brown mb-1">
                   {dict.labels.email}
-                </h3>
+                </p>
                 <p className="text-[16px] sm:text-[17px] text-brand-green font-medium">
                   <a
                     href={`mailto:${siteConfig.ordersEmail}`}
@@ -110,9 +110,9 @@ export function AboutWhereToFind({ dict }: AboutWhereToFindProps) {
                 <Phone className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="font-serif text-[18px] sm:text-[19px] font-bold text-deep-brown mb-1">
+                <p className="font-serif text-[18px] sm:text-[19px] font-bold text-deep-brown mb-1">
                   {dict.labels.phoneWhatsApp}
-                </h3>
+                </p>
                 <p className="text-[16px] sm:text-[17px] text-brand-green font-medium">
                   <a
                     href={siteConfig.whatsapp}

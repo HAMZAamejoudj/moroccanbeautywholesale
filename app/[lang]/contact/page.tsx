@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
+import { PageSchemas } from "@/components/PageSchemas";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Mail, Phone, MapPin, Clock, Send, MessageSquare } from "lucide-react";
-import { MarqueeBand } from "@/components/MarqueeBand";
 import { Button } from "@/components/ui/button";
 import { site } from "@/lib/site";
 import { siteConfig } from "@/lib/siteConfig";
@@ -54,7 +54,6 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
           </div>
         </section>
 
-        <MarqueeBand dict={dict.marquee} />
 
         {/* Contact Info & Form */}
         <section className="container px-4 lg:px-8 py-16 lg:py-24">
@@ -198,6 +197,7 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
       </main>
 
       <Footer />
+      <PageSchemas lang={lang} section="contact" />
     </div>
   );
 }

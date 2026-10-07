@@ -50,9 +50,10 @@ export function WhoItIsFor({ dict, lang }: WhoItIsForProps) {
                   <Image
                     src={card.image}
                     alt={card.title}
-                    fill
+                    width={1200}
+                    height={900}
                     sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover object-center transition-transform duration-500 group-hover:scale-[1.03]"
+                    className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
               ) : (
@@ -66,9 +67,9 @@ export function WhoItIsFor({ dict, lang }: WhoItIsForProps) {
               {/* Card Content */}
               <div className="p-7 flex flex-col flex-1 justify-between">
                 <div>
-                  <h3 className="font-serif text-[22px] font-bold text-[#2A211C] mb-3 leading-snug">
+                  <p className="font-serif text-[22px] font-bold text-[#2A211C] mb-3 leading-snug">
                     {card.title}
-                  </h3>
+                  </p>
                   <p className="text-[15px] sm:text-[16px] text-[#5E534B] leading-relaxed mb-6">
                     {card.description}
                   </p>

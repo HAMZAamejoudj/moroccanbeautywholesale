@@ -16,8 +16,10 @@ const covers = {
   "private-label-moroccan-cosmetics": { src: "private-label-hero-jars.webp", crop: { left: 0, top: 300, width: 1600, height: 900 } },
   "hammam-kit-hotels-spas": { src: "products/moroccan-hammam-kit.webp", crop: { left: 0, top: 290, width: 900, height: 506 } },
   "importing-moroccan-cosmetics": { src: "about-factory-line.webp", crop: { left: 250, top: 120, width: 1000, height: 563 } },
-  // No clean own photo yet: neutral placeholder (see shoot list)
-  "rhassoul-clay-guide": { placeholder: true },
+  "rhassoul-clay-guide": {
+    src: "blog-sources/rhassoul-clay-hero.jpg",
+    resize: { width: 1280, height: 720, fit: "cover", position: "left" },
+  },
 };
 
 const placeholderSvg = (w, h) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 1280 720">
@@ -30,10 +32,14 @@ for (const [slug, c] of Object.entries(covers)) {
   let base;
   if (c.placeholder) {
     base = sharp(Buffer.from(placeholderSvg(1280, 720)));
+  } else if (c.resize) {
+    base = sharp(img(c.src)).resize(c.resize);
   } else {
     base = sharp(img(c.src)).extract(c.crop);
   }
-  const buf = await base.resize(1280, 720, { fit: "cover" }).toBuffer();
+  const buf = c.resize
+    ? await base.toBuffer()
+    : await base.resize(1280, 720, { fit: "cover" }).toBuffer();
   await sharp(buf).webp({ quality: 78 }).toFile(path.join(out, `${slug}.webp`));
   await sharp(buf).resize(1200, 630, { fit: "cover" }).jpeg({ quality: 80, mozjpeg: true }).toFile(path.join(out, `${slug}-og.jpg`));
   console.log(slug, (fs.statSync(path.join(out, `${slug}.webp`)).size / 1024).toFixed(0) + "KB");

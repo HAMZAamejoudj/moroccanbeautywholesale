@@ -17,7 +17,9 @@ const OG_LOCALE: Record<SeoLocale, string> = {
 export function absoluteUrl(path: string): string {
   if (path.startsWith("http")) return path;
   const normalized = path.startsWith("/") ? path : `/${path}`;
-  const withSlash = normalized.endsWith("/") ? normalized : `${normalized}/`;
+  // Files (images, xml, txt) keep their exact path; pages get a trailing slash.
+  const isFile = /\.[a-z0-9]{2,5}$/i.test(normalized);
+  const withSlash = isFile || normalized.endsWith("/") ? normalized : `${normalized}/`;
   return `${SITE_URL}${withSlash}`;
 }
 
@@ -90,7 +92,8 @@ export function buildPageMetadata(input: PageMetadataInput): Metadata {
 
   return {
     metadataBase: new URL(SITE_URL),
-    title,
+    // Titles are written in full (brand included); do not let the layout template append a second brand name.
+    title: { absolute: title },
     description,
     alternates: { canonical, languages },
     openGraph: {

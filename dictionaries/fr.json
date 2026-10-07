@@ -3,147 +3,10 @@
     "title": "Produits Cosmétiques Marocains en Gros | Dès 50 Pièces",
     "description": "Produits cosmétiques marocains prêts à la revente pour boutiques, spas et hôtels : huile d'argan, savon noir, rhassoul, eau de rose et kits hammam. Vente en gros dès 50 pièces."
   },
-  "hero": {
-    "badge": "Produits Cosmétiques Marocains Premium",
-    "title": "Produits Cosmétiques Marocains en Gros",
-    "titleHighlight": "Votre Fournisseur de Confiance",
-    "description": "Bienvenue chez Moroccan Beauty Wholesale, la première source de produits cosmétiques marocains à des prix de gros compétitifs. Nous sommes spécialisés dans la fourniture de produits de beauté marocains authentiques et biologiques pour les entreprises, les spas, les détaillants et les distributeurs mondiaux. Notre vaste gamme d'ingrédients naturels et de produits finis garantit que vous pouvez offrir à vos clients la meilleure expérience de soins de la peau marocains.",
-    "cta": "Explorer le Catalogue Officiel",
-    "certifications": [
-      "ISO",
-      "GMP",
-      "UE"
-    ],
-    "certLabels": [
-      "Certifié",
-      "Normes",
-      "Conforme"
-    ]
-  },
-  "marquee": {
-    "items": [
-      "CERTIFIÉ",
-      "EXPÉDITION MONDIALE",
-      "ORIGINE NATURELLE",
-      "FAIBLE QUANTITÉ MINIMUM",
-      "BIOLOGIQUE"
-    ]
-  },
-  "homeContentSections": [
-    {
-      "badge": "Approvisionnement Authentique",
-      "title": "Produits Cosmétiques Marocains",
-      "titleHighlight": "Authentiques",
-      "paragraphs": [
-        "Notre catalogue propose les produits de beauté marocains les plus recherchés en gros, notamment l'huile d'argan pure, l'huile de pépins de figue de barbarie, le savon noir Beldi, l'eau de rose, l'argile Ghassoul, la poudre de Nila, la poudre d'Aker Fassi et la poudre de henné marocain. Tous les produits proviennent directement des coopératives marocaines locales, garantissant qualité, authenticité et pratiques durables."
-      ],
-      "tags": [
-        "Huile d'Argan",
-        "Huile de Figue de Barbarie",
-        "Savon Noir Beldi",
-        "Eau de Rose",
-        "Argile Ghassoul",
-        "Poudre de Nila",
-        "Aker Fassi",
-        "Henné Marocain"
-      ]
-    },
-    {
-      "badge": "Certifié Biologique",
-      "title": "Beauté Marocaine",
-      "titleHighlight": "Biologique",
-      "paragraphs": [
-        "Nous nous engageons à fournir des produits de beauté marocains biologiques qui répondent aux normes internationales. Notre sélection d'huile d'argan en gros est 100% pure, pressée à froid et certifiée biologique. Que vous recherchiez de l'huile d'argan marocaine en vrac pour la revente ou des formulations personnalisées pour votre gamme de soins de la peau, nous avons des solutions flexibles pour tous vos besoins."
-      ]
-    },
-    {
-      "badge": "Services Marque Blanche",
-      "title": "Cosmétiques Marocains en",
-      "titleHighlight": "Marque Blanche",
-      "paragraphs": [
-        "Lancez votre propre marque avec notre service de cosmétiques marocains en marque blanche. Nous gérons la formulation, l'approvisionnement et l'emballage, vous permettant de lancer des produits de haute qualité sous le nom de votre marque.",
-        "Des ingrédients individuels aux gammes de soins de la peau entièrement formulées, nous répondons aux entreprises de toutes tailles cherchant à offrir des produits de beauté marocains haut de gamme."
-      ],
-      "tags": [
-        "Formulations Personnalisées",
-        "Marque Blanche",
-        "Achat en Vrac",
-        "Conception d'Emballage"
-      ]
-    },
-    {
-      "badge": "Portée Mondiale",
-      "title": "Exportation de Produits Cosmétiques",
-      "titleHighlight": "Marocains",
-      "paragraphs": [
-        "En tant que fournisseur de beauté marocain de confiance, nous exportons des produits cosmétiques marocains dans le monde entier. Nous gérons toutes les exigences logistiques et de conformité pour garantir que vos commandes en gros arrivent en toute sécurité et efficacement, où que se trouve votre entreprise."
-      ]
-    }
-  ],
-  "whyUs": {
-    "badge": "Notre Engagement",
-    "title": "Pourquoi Nous Choisir Comme",
-    "titleHighlight": "Fournisseur en Gros",
-    "intro": "Nous ne vendons pas seulement des produits ; nous travaillons en partenariat avec des entreprises pour offrir une expérience de beauté marocaine authentique à l'échelle mondiale. Voici pourquoi nous sommes le fournisseur privilégié de entreprises à travers le monde.",
-    "stats": [
-      {
-        "value": "100%",
-        "label": "Certifié Bio",
-        "color": "argan"
-      },
-      {
-        "value": "50+",
-        "label": "Pays Desservis",
-        "color": "terracotta"
-      },
-      {
-        "value": "50+",
-        "label": "Partenaires Satisfaits",
-        "color": "olive"
-      }
-    ],
-    "accordion": [
-      {
-        "id": "authenticity",
-        "title": "Authenticité et Qualité Inégalées",
-        "subtitle": "Directement approvisionné des coopératives marocaines.",
-        "content": "Chaque produit est sourcé de manière durable dans sa région d'origine au Maroc. Notre huile d'Argan est pressée à froid à Agadir, notre Eau de Rose est distillée à Kelaat M'Gouna, et notre argile Ghassoul provient directement des montagnes de l'Atlas. Le contrôle de la qualité est maintenu à chaque étape de la production."
-      },
-      {
-        "id": "certifications",
-        "title": "Certifié Biologique et Sûr",
-        "subtitle": "Conforme aux normes cosmétiques mondiales.",
-        "content": "Nos ingrédients sont certifiés par des organismes biologiques internationaux (International Standard, USDA) et sont conformes aux normes ISO et BPF. Nous fournissons des COA, des FDS et toute la documentation d'exportation nécessaire, facilitant votre importation et votre vente sur votre marché."
-      },
-      {
-        "id": "private-label",
-        "title": "Options de Marque Blanche Flexibles",
-        "subtitle": "Faible MOQ pour lancer votre marque.",
-        "content": "Nous soutenons les entreprises de toutes tailles. Que vous ayez besoin de fûts en vrac pour la fabrication ou de produits entièrement emballés et étiquetés en marque blanche prêts pour la vente au détail, nous nous adaptons à vos besoins. Notre faible MOQ aide les startups à se lancer avec un risque minimal."
-      },
-      {
-        "id": "sustainability",
-        "title": "Éthique et Durable",
-        "subtitle": "Autonomisation des communautés locales.",
-        "content": "Nous travaillons en étroite collaboration avec des coopératives de femmes dans le Maroc rural. En nous choisissant, vous soutenez des pratiques de commerce équitable qui autonomisent économiquement ces communautés tout en préservant des méthodes de récolte traditionnelles et écologiques."
-      },
-      {
-        "id": "logistics",
-        "title": "Exportation Mondiale Sans Faille",
-        "subtitle": "Expédition mondiale fiable.",
-        "content": "Nous avons des années d'expérience dans l'exportation de produits cosmétiques marocains en gros. Nous gérons la logistique complexe, la documentation douanière et les processus d'expédition pour nous assurer que votre commande arrive en toute sécurité et à temps."
-      }
-    ],
-    "cta": {
-      "title": "Prêt à élever votre gamme de produits ?",
-      "description": "Découvrez notre gamme complète de produits cosmétiques marocains haut de gamme dans notre catalogue officiel.",
-      "button": "Voir le Catalogue Officiel"
-    }
-  },
   "about": {
     "seo": {
       "title": "À Propos de Moroccan Beauty Wholesale | Atelier à Agadir",
-      "description": "Qui sommes-nous : fournisseur marocain en gros de produits de beauté prêts à la vente pour boutiques, spas et hôtels, dès 50 pièces. Atelier à Agadir, adresse à Marrakech."
+      "description": "Fournisseur marocain en gros de produits de beauté prêts à la vente pour boutiques, spas et hôtels, dès 50 pièces. Atelier à Agadir."
     },
     "breadcrumb": {
       "home": "Accueil",
@@ -270,12 +133,12 @@
   },
   "benefits": {
     "seo": {
-      "title": "Bienfaits des Ingrédients Cosmétiques Biologiques Marocains – Huile d'Argan, Figue de Barbarie et plus",
-      "description": "Découvrez les bienfaits naturels des matières premières cosmétiques marocaines. Découvrez comment l'huile d'argan, le rhassoul et le savon noir nourrissent la peau."
+      "title": "Ingrédients Cosmétiques Marocains : Bienfaits et Usages",
+      "description": "Huile d'argan, figue de barbarie, rhassoul, aker fassi : à quoi sert chaque ingrédient cosmétique marocain et comment l'acheter en gros."
     },
     "hero": {
       "badge": "Bienfaits des Ingrédients",
-      "title": "Le Guide Ultime des Ingrédients Cosmétiques Biologiques Marocains et",
+      "title": "Le Guide Ultime des Ingrédients Cosmétiques Marocains et",
       "titleHighlight": "Leurs Bienfaits",
       "subtitle": "Six ingrédients marocains traditionnels, leurs bienfaits et leurs usages professionnels. Disponibles en gros dès 50 pièces.",
       "ctaPrice": "Demander la liste des prix",
@@ -284,7 +147,7 @@
     },
     "intro": {
       "title": "Introduction",
-      "p1": "Le Maroc est mondialement connu pour son riche héritage en matière d'ingrédients de beauté naturels. Des arganiers gorgés de soleil aux rituels de hammam traditionnels, les matières premières biologiques marocaines sont utilisées depuis des siècles pour nourrir, protéger et sublimer la peau et les cheveux.",
+      "p1": "Le Maroc est mondialement connu pour son riche héritage en matière d'ingrédients de beauté naturels. Des arganiers gorgés de soleil aux rituels de hammam traditionnels, les matières premières naturelles marocaines sont utilisées depuis des siècles pour nourrir, protéger et sublimer la peau et les cheveux.",
       "p2": "Ce guide explore les utilisations traditionnelles et modernes des ingrédients cosmétiques les plus populaires du Maroc, en soulignant leurs avantages, leurs applications et la raison pour laquelle ils restent essentiels dans les formulations professionnelles."
     },
     "ingredients": [
@@ -297,8 +160,8 @@
         "image": "/images/ingredients/rhassoul-clay.webp",
         "benefits": [
           {
-            "title": "Détoxifie",
-            "desc": "Élimine les impuretés, les toxines et l'excès de sébum de la peau."
+            "title": "Purifie",
+            "desc": "Aide à éliminer les impuretés et l'excès de sébum de la peau."
           },
           {
             "title": "Équilibre",
@@ -386,9 +249,9 @@
       },
       {
         "id": "argan-oil",
-        "title": "Bienfaits de l'Huile d'Argan Bio",
+        "title": "Bienfaits de l'Huile d'Argan",
         "chipLabel": "Huile d'Argan",
-        "description": "L'huile d'argan bio est souvent appelée « l'or liquide » en raison de son incroyable polyvalence. Extraite des noyaux de l'arganier, cette huile est riche en vitamine E, en acides gras et en antioxydants.",
+        "description": "L'huile d'argan est souvent appelée « l'or liquide » en raison de son incroyable polyvalence. Extraite des noyaux de l'arganier, cette huile est riche en vitamine E, en acides gras et en antioxydants.",
         "usage": "Peut être appliqué directement sur la peau, mélangé à des crèmes ou ajouté à des soins capillaires.",
         "image": "/images/ingredients/argan-oil.webp",
         "benefits": [
@@ -401,8 +264,8 @@
             "desc": "Réduit les frisottis, renforce la tige du cheveu et améliore la brillance."
           },
           {
-            "title": "Anti-Âge",
-            "desc": "Favorise l'élasticité, réduit l'apparence des ridules et combat les dommages causés par les radicaux libres."
+            "title": "Adoucissante",
+            "desc": "Aide à garder la peau douce et souple."
           },
           {
             "title": "Protection UV",
@@ -446,7 +309,7 @@
       "desc": "La combinaison de ces ingrédients marocains permet de prendre soin de la peau, des cheveux et des ongles. Les marques et entreprises en marque blanche bénéficient de :",
       "items": [
         {
-          "title": "Matières Premières Certifiées Bio",
+          "title": "Matières Premières Naturelles",
           "desc": "Garantit la traçabilité et la sécurité."
         },
         {
@@ -469,11 +332,11 @@
       "items": [
         {
           "title": "Sérums et huiles",
-          "desc": "Huiles d'argan et de figue de barbarie pour l'anti-âge et l'hydratation."
+          "desc": "Huiles d'argan et de figue de barbarie pour l'hydratation et la douceur."
         },
         {
           "title": "Masques",
-          "desc": "Argile Rhassoul et nila bleu pour détoxifier et éclaircir."
+          "desc": "Argile Rhassoul et nila bleu pour nettoyer et illuminer."
         },
         {
           "title": "Exfoliants",
@@ -489,10 +352,10 @@
     "whatsappPriceMessage": "Bonjour, je souhaiterais le tarif de gros pour {name}.",
     "bulk": {
       "title": "Options de Vente en Gros et de Marque Blanche",
-      "desc": "Pour les entreprises, nous proposons des ingrédients cosmétiques marocains en gros avec une commande minimum dès 50 pièces, adaptés à la marque blanche. Chaque ingrédient est accompagné d'un COA (certificat d'analyse) et d'une SDS (fiche de données de sécurité). La certification ECOCERT / Origine Pure Marocaine est disponible le cas échéant. Cela garantit la conformité mondiale, la qualité des produits et la facilité d'exportation de votre marque.",
+      "desc": "Pour les entreprises, nous proposons des ingrédients cosmétiques marocains en gros avec une commande minimum de 50 pièces, adaptés à la marque blanche. Listes d'ingrédients et fiches de données de sécurité sur demande.",
       "highlights": [
         "MOQ dès 50 pièces",
-        "COA et SDS fournis",
+        "Listes d'ingrédients et fiches de données de sécurité sur demande",
         "Export mondial"
       ],
       "ctaPrice": "Demander la liste des prix",
@@ -500,26 +363,26 @@
     },
     "conclusion": {
       "title": "Conclusion",
-      "p1": "Les ingrédients naturels du Maroc ont résisté à l'épreuve du temps, offrant des bienfaits pour la peau qui sont à la fois efficaces et durables. De l'huile d'argan hydratante à l'argile rhassoul détoxifiante, ces ingrédients offrent des solutions polyvalentes de première qualité.",
+      "p1": "Les ingrédients naturels du Maroc ont résisté à l'épreuve du temps, offrant des bienfaits pour la peau qui sont à la fois efficaces et durables. De l'huile d'argan hydratante à l'argile rhassoul purifiante, ces ingrédients offrent des solutions polyvalentes de première qualité.",
       "points": [
-        "Fournir des produits certifiés biologiques de haute qualité",
+        "Proposer des produits naturels marocains authentiques",
         "Créer des formulations uniques inspirées des rituels de beauté traditionnels",
         "Répondre aux attentes des consommateurs soucieux de l'écologie",
         "Passer de la marque blanche en petits lots à la vente en gros mondiale"
       ],
-      "p2": "Explorez notre catalogue aujourd'hui et découvrez pourquoi les ingrédients biologiques marocains restent essentiels, alliant tradition, science et beauté naturelle.",
+      "p2": "Explorez notre catalogue aujourd'hui et découvrez pourquoi les ingrédients naturels marocains restent essentiels, alliant tradition, science et beauté naturelle.",
       "ctaPrice": "Demander la liste des prix",
       "ctaWhatsApp": "Échanger sur WhatsApp"
     }
   },
   "privateLabel": {
     "seo": {
-      "title": "Marque Blanche Cosmétiques Bio Marocains – Lancez Votre Marque (MOQ 50)",
-      "description": "Créez votre propre marque de cosmétiques biologiques marocains. Commencez avec seulement 50 pièces par produit. Ingrédients certifiés, emballage personnalisé."
+      "title": "Marque Blanche Cosmétiques Marocains dès 50 pièces",
+      "description": "Créez votre propre marque de cosmétiques marocains. Commande minimum : 50 pièces. Emballage personnalisé, expédition mondiale."
     },
     "hero": {
       "badge": "Services en Marque Blanche",
-      "title": "Lancez Votre Propre Marque de Cosmétiques Biologiques Marocains en",
+      "title": "Lancez Votre Propre Marque de Cosmétiques Marocains en",
       "titleHighlight": "Marque Blanche",
       "subtitle": "Votre logo sur des cosmétiques marocains prêts à l'emploi. À partir de 50 pièces par produit, fabriqués et conditionnés dans notre usine à Agadir.",
       "ctaWhatsApp": "Lancer votre marque sur WhatsApp",
@@ -527,9 +390,9 @@
       "whatsappMessage": "Bonjour, je souhaite lancer une marque en marque blanche."
     },
     "intro": {
-      "title": "Qu'est-ce que la Marque Blanche de Cosmétiques Biologiques Marocains ?",
-      "p1": "La marque blanche vous permet de vendre des produits cosmétiques biologiques marocains de qualité supérieure sous votre propre marque. Nous gérons la production, la qualité et l'approvisionnement. Vous vous concentrez sur la création de votre identité de marque et sur la communication avec votre public.",
-      "p2": "Avec notre service, vous n'avez besoin de rien fabriquer vous-même. Nous fournissons des ingrédients certifiés biologiques prêts à être marqués, joliment emballés pour refléter l'histoire de votre marque.",
+      "title": "Qu'est-ce que la Marque Blanche de Cosmétiques Marocains ?",
+      "p1": "La marque blanche vous permet de vendre des produits cosmétiques marocains sous votre propre marque. Nous gérons la production, la qualité et l'approvisionnement. Vous vous concentrez sur la création de votre identité de marque et sur la communication avec votre public.",
+      "p2": "Avec notre service, vous n'avez besoin de rien fabriquer vous-même. Nous fournissons des produits marocains prêts à être personnalisés, joliment emballés pour refléter l'histoire de votre marque.",
       "highlightBefore": "Ce système permet même aux petites entreprises ou aux entrepreneurs individuels de lancer leur gamme avec un MOQ à partir de ",
       "highlightBold": "50 unités par SKU",
       "highlightAfter": ", minimisant les risques tout en maximisant la croissance potentielle.",
@@ -566,7 +429,7 @@
       "weProvide": {
         "title": "Nous fournissons :",
         "items": [
-          "Des produits marocains 100% certifiés biologiques",
+          "Des produits marocains prêts à être personnalisés",
           "Emballage et étiquetage personnalisés",
           "Expédition mondiale professionnelle et documents d'exportation"
         ]
@@ -597,19 +460,19 @@
         },
         {
           "title": "Attrait Écologique",
-          "desc": "Des produits biologiques, sans cruauté et issus de sources durables qui attirent les consommateurs conscients.",
+          "desc": "Des ingrédients naturels marocains qui attirent les consommateurs conscients.",
           "icon": "sprout"
         },
         {
           "title": "Expédition Mondiale",
-          "desc": "Produits prêts à l'exportation expédiés de manière fiable dans plus de 50 pays, avec COA et SDS.",
+          "desc": "Produits prêts à l'exportation expédiés dans le monde entier. Listes d'ingrédients et fiches de données de sécurité sur demande.",
           "icon": "globe"
         }
       ]
     },
     "ingredients": {
       "title": "Pourquoi les Ingrédients Marocains ?",
-      "desc": "Le Maroc est connu dans le monde entier pour son riche patrimoine botanique. L'utilisation d'ingrédients marocains authentiques donne à vos produits un avantage naturel et attire les consommateurs soucieux de l'écologie. Notre catalogue comprend plus de 21 ingrédients de qualité supérieure, entièrement traçables et certifiés, prêts à être personnalisés :",
+      "desc": "Le Maroc est connu dans le monde entier pour son riche patrimoine botanique. L'utilisation d'ingrédients marocains authentiques donne à vos produits un avantage naturel et attire les consommateurs soucieux de l'écologie. Notre catalogue comprend plus de 21 ingrédients, prêts à être personnalisés :",
       "groups": [
         {
           "id": "oils",
@@ -617,7 +480,7 @@
           "items": [
             {
               "name": "Huile d'Argan",
-              "desc": "Hydratante, anti-âge, soin des cheveux et de la peau"
+              "desc": "Hydratante, adoucissante, soin des cheveux et de la peau"
             },
             {
               "name": "Huile de Figue de Barbarie",
@@ -665,7 +528,7 @@
           "items": [
             {
               "name": "Argile Rhassoul",
-              "desc": "Nettoyage et détox naturel"
+              "desc": "Nettoyage naturel"
             },
             {
               "name": "Poudre de Nila",
@@ -725,12 +588,12 @@
         },
         {
           "title": "Hôtels de Luxe",
-          "desc": "Offrez des équipements biologiques de marque à vos clients dans le cadre de vos services haut de gamme.",
+          "desc": "Offrez des équipements de marque à vos clients dans le cadre de vos services haut de gamme.",
           "icon": "hotel"
         },
         {
           "title": "Détaillants et Boutiques",
-          "desc": "Démarquez-vous dans les rayons avec une gamme de produits biologiques marocains entièrement à votre marque.",
+          "desc": "Démarquez-vous dans les rayons avec une gamme de produits marocains entièrement à votre marque.",
           "icon": "store"
         }
       ]
@@ -760,14 +623,14 @@
         },
         {
           "title": "Prêt au Lancement",
-          "desc": "Tous les produits sont certifiés, emballés et prêts à l'exportation, vous permettant de vous concentrer sur la croissance.",
+          "desc": "Tous les produits sont emballés et prêts à l'exportation, vous permettant de vous concentrer sur la croissance.",
           "icon": "badgeCheck"
         }
       ]
     },
     "cta": {
       "title": "Commencez Votre Marque Aujourd'hui",
-      "desc": "Lancez votre marque de cosmétiques biologiques marocains en toute confiance. Avec notre programme de marque blanche, vous pouvez offrir des produits authentiques, certifiés et traçables qui résonnent auprès des consommateurs soucieux de l'environnement à l'échelle mondiale.",
+      "desc": "Lancez votre marque de cosmétiques marocains en toute confiance. Avec notre programme de marque blanche, vous pouvez offrir des produits marocains authentiques qui résonnent auprès des consommateurs soucieux de l'environnement à l'échelle mondiale.",
       "contactTitle": "Contactez-nous aujourd'hui pour :",
       "contactItems": [
         "Demander des échantillons",
@@ -780,16 +643,10 @@
       "emailSubject": "Demande marque blanche"
     }
   },
-  "blog": {
-    "seo": {
-      "title": "Blog des Huiles et Ingrédients Bio Marocains – Soins de la Peau et Beauté",
-      "description": "Explorez les bienfaits des ingrédients de beauté marocains comme l'huile d'argan, la figue de barbarie et l'Aker Fassi. Guides et conseils d'experts."
-    }
-  },
   "contactPage": {
     "seo": {
-      "title": "Contact Moroccan Beauty Wholesale – Fournisseur de Cosmétiques Marocains",
-      "description": "Contactez Moroccan Beauty Wholesale pour vos commandes de produits cosmétiques marocains en vrac, services en marque blanche et ingrédients biologiques. Réponse rapide, expédition mondiale."
+      "title": "Contact Moroccan Beauty Wholesale | Liste de prix",
+      "description": "Demandez la liste de prix de nos produits de beauté marocains. Indiquez votre activité, vos produits et votre pays. Réponse sous 24 h ouvrables."
     },
     "hero": {
       "badge": "Contactez-nous",
@@ -830,7 +687,7 @@
   "newHome": {
     "seo": {
       "title": "Produits Cosmétiques Marocains en Gros | Dès 50 Pièces",
-      "description": "Produits cosmétiques marocains prêts à la revente pour boutiques, spas et hôtels : huile d'argan, savon noir, rhassoul, eau de rose et kits hammam. Vente en gros dès 50 pièces."
+      "description": "Produits cosmétiques marocains prêts à la revente pour boutiques, spas et hôtels : argan, savon noir, rhassoul, eau de rose. Dès 50 pièces."
     },
     "hero": {
       "h1": "Produits Cosmétiques Marocains, en Gros et Prêts à Vendre",
@@ -918,7 +775,7 @@
           "name": "Eau de rose",
           "format": "Sur demande",
           "popularWith": "Boutiques, e-commerce",
-          "image": "/images/blog-rose-water.webp"
+          "image": "/images/products/moroccan-rose-water.webp"
         },
         {
           "name": "Gants exfoliants Kessa",
@@ -950,7 +807,7 @@
         {
           "num": "02",
           "title": "Atteignez le minimum",
-          "desc": "50 pièces au total par commande."
+          "desc": "Commande minimum : 50 pièces."
         },
         {
           "num": "03",
